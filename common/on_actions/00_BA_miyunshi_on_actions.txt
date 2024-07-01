@@ -1,0 +1,38 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				limit = { is_ai = no }
+				add_to_array = { # It will automatically add the scope
+					array = global.players
+				}
+			}
+			for_each_scope_loop = {
+				array = global.players
+				set_variable = {
+					BA_show_miyunshi_button = 1
+				}
+				set_variable = {
+					BA_miyunshi_open = 0
+				}
+				set_variable = {
+					BA_miyunshi_select_open = 0
+				}
+				set_variable = { 
+					BA_miyunshi_point = 5
+				}			
+				set_variable = {
+					# -1 선택 안함
+					BA_miyunshi_selected_character = -1
+				}
+			}
+		}
+	}
+	on_monthly = {
+		effect = {
+			set_variable = { 
+				BA_miyunshi_point = 5
+			}			
+		}
+	}
+}

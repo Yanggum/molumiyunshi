@@ -1,0 +1,1 @@
+add_namespace = BA_miyunshi_generic_banmal_event

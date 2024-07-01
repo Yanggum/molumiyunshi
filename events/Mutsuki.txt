@@ -1,0 +1,14 @@
+add_namespace = BA_miyunshi_mutsuki_event
+
+country_event = {
+	id = BA_miyunshi_mutsuki_event.1
+	title = BA_miyunshi_mutsuki_event.1.t
+	desc = BA_miyunshi_mutsuki_event.1.d
+	picture = GFX_events_miyunshi_mutsuki
+
+	is_triggered_only = yes
+
+	option = {
+		name = BA_miyunshi_mutsuki_event.1.a
+	}
+}

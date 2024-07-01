@@ -1,0 +1,301 @@
+
+guiTypes = {
+	containerWindowType = {
+		name = "miyunshi_window"
+		position = { x = 0 y = 0 }
+		size = { width = 200 height = 200 }
+		orientation = UPPER_RIGHT
+		origo = UPPER_RIGHT
+
+		buttonType = {
+			name = "miyunshi_button"
+			position = { x=-30 y=0 }
+			quadTextureSprite ="GFX_achievements_button"
+			buttonText = "[ROOT.GetMiyunshiArchiveActPointsText]"
+			buttonFont = "hoi_18mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = CENTER
+			quadTextureSprite ="GFX_button_123x34"
+		}		
+	}
+
+	containerWindowType = {
+		name = "miyunshi_change_student_window"
+		position = { x = -550 y = 325 }
+		size = { width = 190 height = 200 }
+		#moveable = yes
+		Orientation = UPPER_RIGHT
+		origo = UPPER_RIGHT
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window2_1b_border"
+		}
+
+		vertical_scroll_step = 20
+
+
+		# 버튼 너비와 간격 정의
+		# @button_width = 123
+		# @button_spacing = 20
+
+		buttonType = {
+			name = "btn_change_to_azusa"
+			position = { x=-60 y=20 }
+			quadTextureSprite ="GFX_button_123x34"
+			buttonText = "miyunshi_button_change_to_azusa"
+			buttonFont = "hoi_18mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = CENTER_UP			
+		}
+
+		# buttonType = {
+		# 	name = "btn_change_to_azusa"
+		# 	position = { x=-60 y=20 }
+		# 	quadTextureSprite ="GFX_button_123x34"
+		# 	buttonText = "miyunshi_button_change_to_azusa"
+		# 	buttonFont = "hoi_18mbs"
+		# 	clicksound = click_ok
+		# 	oversound = ui_menu_over
+		# 	Orientation = CENTER_UP			
+		# }
+
+		# buttonType = {
+		# 	name = "btn_change_to_azusa_1"
+		# 	position = { x=-60 y=20 }
+		# 	quadTextureSprite ="GFX_button_123x34"
+		# 	buttonText = "miyunshi_button_change_to_azusa"
+		# 	buttonFont = "hoi_18mbs"
+		# 	clicksound = click_ok
+		# 	oversound = ui_menu_over
+		# 	Orientation = CENTER_UP			
+		# }
+
+		# buttonType = {
+		# 	name = "btn_change_to_azusa_2"
+		# 	position = { x=-60 y=20 }
+		# 	quadTextureSprite ="GFX_button_123x34"
+		# 	buttonText = "miyunshi_button_change_to_azusa"
+		# 	buttonFont = "hoi_18mbs"
+		# 	clicksound = click_ok
+		# 	oversound = ui_menu_over
+		# 	Orientation = CENTER_UP			
+		# }
+
+		# buttonType = {
+		# 	name = "btn_change_to_azusa_3"
+		# 	position = { x=-60 y=20 }
+		# 	quadTextureSprite ="GFX_button_123x34"
+		# 	buttonText = "miyunshi_button_change_to_azusa"
+		# 	buttonFont = "hoi_18mbs"
+		# 	clicksound = click_ok
+		# 	oversound = ui_menu_over
+		# 	Orientation = CENTER_UP			
+		# }
+		
+		buttonType = {
+			name = "btn_change_to_mutsuki"
+			position = { x=-60 y=56 }
+			quadTextureSprite ="GFX_button_123x34"
+			buttonText = "miyunshi_button_change_to_mutsuki"
+			buttonFont = "hoi_18mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = CENTER_UP			
+		}
+	}
+
+	containerWindowType = {
+		name = "miyunshi_container_window"
+		hide = no
+		#moveable = yes
+		position = { x = -450 y = -350 }
+		Orientation = CENTER
+		size = {
+			width = 900
+			height = 600
+		}
+	
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_tiled_window2_1b_border"
+		}
+	
+		iconType = {
+			name = "miyunshi_background_icon"
+			position = {
+				x = 45
+				y = 30
+			}
+			scale = 0.45
+			Orientation = UPPER_LEFT
+			spriteType = "GFX_background_miyunshi_house"
+		}
+	
+		iconType = {
+			name = "center_student"
+			position = {
+				x = 200
+				y = 45
+			}
+			scale = 0.425
+			Orientation = UPPER_LEFT
+			#spriteType = "GFX_standing_mutsuki"
+		}
+
+		# iconType = {
+		# 	hide = yes
+		# 	name = "center_student_azusa"
+		# 	position = {
+		# 		x = 200
+		# 		y = 45
+		# 	}
+		# 	scale = 0.425
+		# 	Orientation = UPPER_LEFT
+		# 	spriteType = "GFX_standing_azusa"
+		# }
+	
+		# 버튼 너비와 간격 정의
+		# @button_width = 123
+		# @button_spacing = 20
+	
+		buttonType = {
+			name = "miyunshi_button_conv"
+			position = { x=235 y=-100 }
+			quadTextureSprite ="GFX_button_123x34"
+			buttonText = "miyunshi_button_conv"
+			buttonFont = "hoi_18mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = LOWER_LEFT
+		}       
+	
+		buttonType = {
+			name = "miyunshi_button_change_student"
+			position = { x=378 y=-100 }
+			quadTextureSprite ="GFX_button_123x34"
+			buttonText = "miyunshi_button_student_change"
+			buttonFont = "hoi_18mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = LOWER_LEFT
+		}
+	
+		buttonType = {
+			name = "miyunshi_button_close"
+			position = { x=521 y=-100 }
+			quadTextureSprite ="GFX_button_123x34"
+			buttonText = "miyunshi_button_close"
+			buttonFont = "hoi_18mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = LOWER_LEFT
+		}
+	}
+
+	# containerWindowType = {
+	# 	name = "miyunshi_container_window"
+	# 	hide = no
+	# 	moveable = yes
+	# 	position = { x = -450 y = -350 }
+	# 	Orientation = CENTER
+	# 	size = {
+	# 		width = 900
+	# 		height = 600
+	# 	}
+	
+	# 	background = {
+	# 		name = "Background"
+	# 		quadTextureSprite = "GFX_tiled_window2_1b_border"
+	# 	}
+	
+	# 	iconType = {
+	# 		name = "miyunshi_background_icon"
+	# 		position = {
+	# 			x = 45
+	# 			y = 30
+	# 		}
+	# 		scale = 0.45
+	# 		Orientation = UPPER_LEFT
+	# 		spriteType = "GFX_background_miyunshi_house"
+	# 	}
+
+	# 	iconType = {
+	# 		name = "center_student"
+	# 		position = {
+	# 			x = 200
+	# 			y = 45
+	# 		}
+	# 		scale = 0.425
+	# 		Orientation = UPPER_LEFT
+	# 		spriteType = "GFX_standing_mutsuki"
+	# 	}
+	
+	# 	# 버튼 너비와 간격 정의
+	# 	@button_width = 123
+	# 	@button_spacing = 21
+	
+	# 	buttonType = {
+	# 		name = "miyunshi_button_conv"
+	# 		position = { x=72 y=-100 }
+	# 		quadTextureSprite ="GFX_button_123x34"
+	# 		buttonText = "miyunshi_button_conv"
+	# 		buttonFont = "hoi_18mbs"
+	# 		clicksound = click_ok
+	# 		oversound = ui_menu_over
+	# 		Orientation = LOWER_LEFT
+	# 	}       
+	
+	# 	buttonType = {
+	# 		name = "miyunshi_button_interaction"
+	# 		position = { x=216 y=-100 }
+	# 		quadTextureSprite ="GFX_button_123x34"
+	# 		buttonText = "miyunshi_button_interaction"
+	# 		buttonFont = "hoi_18mbs"
+	# 		clicksound = click_ok
+	# 		oversound = ui_menu_over
+	# 		Orientation = LOWER_LEFT
+	# 	}       
+	
+	# 	buttonType = {
+	# 		name = "miyunshi_button_gift"
+	# 		position = { x=360 y=-100 }
+	# 		quadTextureSprite ="GFX_button_123x34"
+	# 		buttonText = "miyunshi_button_gift"
+	# 		buttonFont = "hoi_18mbs"
+	# 		clicksound = click_ok
+	# 		oversound = ui_menu_over
+	# 		Orientation = LOWER_LEFT
+	# 	}       
+	
+	# 	buttonType = {
+	# 		name = "miyunshi_button_go_out"
+	# 		position = { x=504 y=-100 }
+	# 		quadTextureSprite ="GFX_button_123x34"
+	# 		buttonText = "miyunshi_button_go_out"
+	# 		buttonFont = "hoi_18mbs"
+	# 		clicksound = click_ok
+	# 		oversound = ui_menu_over
+	# 		Orientation = LOWER_LEFT
+	# 	}
+	
+	# 	buttonType = {
+	# 		name = "miyunshi_button_change_student"
+	# 		position = { x=648 y=-100 }
+	# 		quadTextureSprite ="GFX_button_123x34"
+	# 		buttonText = "miyunshi_button_student_change"
+	# 		buttonFont = "hoi_18mbs"
+	# 		clicksound = click_ok
+	# 		oversound = ui_menu_over
+	# 		Orientation = LOWER_LEFT
+	# 	}
+	# }
+
+	# containerWindowType = {
+	# 	name = "miyunshi_container_window"
+	# 	hide = no
+	# 	moveable = yes
+
+}

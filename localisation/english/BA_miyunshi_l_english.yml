@@ -1,0 +1,16 @@
+﻿l_english:
+ miyunshi_button: "데이트"
+ miyunshi_button_point_none: "행동 끝"
+ miyunshi_button_point_remain: "행동력:  §Y[?var:BA_miyunshi_point]§!"
+ miyunshi_button_conv: "대화"
+ miyunshi_button_interaction: "상호작용"
+ miyunshi_button_gift: "선물"
+ miyunshi_button_go_out: "외출"
+ miyunshi_button_student_change: "변경"
+ miyunshi_button_close: "닫기" 
+ miyunshi_center_student: "£GFX_standing_azusa"
+
+ # 일반
+ BA_miyunshi_generic_event.1.t: "알림"
+ BA_miyunshi_generic_event.1.d: "행동력이 부족합니다."
+ BA_miyunshi_generic_event.1.a: "알겠어"

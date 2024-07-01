@@ -1,0 +1,186 @@
+scripted_gui = {
+	miyunshi_window = {
+		context_type = player_context
+		window_name = miyunshi_window
+
+		ai_enabled = {
+			always = no
+		}
+
+		visible = {
+			check_variable = {
+				BA_show_miyunshi_button = 1				
+			} 
+		}
+
+		effects = {
+			miyunshi_button_click = {
+				if = {
+					limit = {
+						check_variable = {
+							BA_miyunshi_open = 0
+						}
+					}
+					set_variable = {
+						BA_miyunshi_open = 1
+					}
+				}
+				else_if = {
+					limit = { 
+						check_variable = {
+							BA_miyunshi_open = 1
+						}
+					}
+					set_variable = {
+						BA_miyunshi_open = 0
+					}
+					set_variable = {
+						BA_miyunshi_select_open = 0
+					}
+				}			
+			}
+		}		
+	}
+
+	miyunshi_container_window = {
+		context_type = player_context
+		window_name = miyunshi_container_window
+
+		ai_enabled = {
+			always = no
+		}
+
+		visible = {
+			check_variable = {
+				BA_miyunshi_open = 1				
+			}
+		}
+
+		effects = {
+			miyunshi_button_click = {
+				if = {
+					limit = {
+						check_variable = {
+							BA_miyunshi_open = 0
+						}
+					}
+					set_variable = {
+						BA_miyunshi_open = 1
+					}
+				}
+				else_if = {
+					limit = { 
+						check_variable = {
+							BA_miyunshi_open = 1
+						}
+					}
+					set_variable = {
+						BA_miyunshi_open = 0
+					}
+				}			
+			}
+
+			miyunshi_button_conv_click = {
+				if = {
+					limit = {
+						check_variable = {
+							BA_miyunshi_point > 0
+						}
+					}
+					random = {
+						chance = 100
+						country_event = BA_miyunshi_mutsuki_event.1
+						subtract_from_variable = {
+							BA_miyunshi_point = 1
+						}
+					}
+				}
+				else_if = {
+					limit = { 
+						check_variable = {
+							BA_miyunshi_point < 1
+						}
+					}
+					random = {
+						chance = 100
+						country_event = BA_miyunshi_generic_event.1
+					}
+				}
+			}
+
+			miyunshi_button_change_student_click = {
+				if = {
+					limit = {
+						check_variable = {
+							BA_miyunshi_select_open = 0
+						}
+					}
+					set_variable = {
+						BA_miyunshi_select_open = 1
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							BA_miyunshi_select_open = 1
+						}
+					}
+					set_variable = {
+						BA_miyunshi_select_open = 0
+					}
+				}
+			}
+
+			miyunshi_button_close_click = {
+				if = {
+					limit = {
+						check_variable = {
+							BA_miyunshi_open = 1
+						}
+					}
+					set_variable = {
+						BA_miyunshi_open = 0
+					}
+					set_variable = {
+						BA_miyunshi_select_open = 0						
+					}
+				}
+			}
+		}
+
+		properties = {
+			center_student = {
+				image = "[ROOT.GetMiyunshiArchiveCharacterText]"
+			}
+		}
+	}
+
+	miyunshi_change_student_window = {
+		context_type = player_context
+		window_name = miyunshi_change_student_window
+
+		ai_enabled = {
+			always = no
+		}
+
+		visible = {
+			check_variable = {
+				BA_miyunshi_select_open = 1
+			}		
+		}
+
+		effects = {
+			btn_change_to_azusa_click = {
+				set_variable = {
+					BA_miyunshi_selected_character = 2
+				}
+			}
+
+			btn_change_to_mutsuki_click = {
+				set_variable = {
+					BA_miyunshi_selected_character = 1
+				}
+			}
+		}
+	}
+}

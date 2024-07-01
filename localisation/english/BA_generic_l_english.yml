@@ -1,0 +1,16 @@
+﻿l_english:
+  BA_miyunshi_generic_event.1.t: "알림"
+  BA_miyunshi_generic_event.1.d: "행동력이 부족합니다."
+  BA_miyunshi_generic_event.1.a: "알겠어"
+
+
+  # 반말 (일반)
+
+
+
+  # 존댓말 (일반)
+
+
+  # UI
+  miyunshi_button_change_to_azusa: "아즈사"
+  miyunshi_button_change_to_mutsuki: "무츠키"

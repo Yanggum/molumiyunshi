@@ -1,0 +1,15 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_background_miyunshi_house"
+		texturefile = "gfx/interface/miyunshi_house.dds"
+	}
+
+	spriteType = {
+		name = "GFX_standing_azusa"
+		textureFile = "gfx/interface/standing/azusa_standing.dds"
+	}
+	spriteType = {
+		name = "GFX_standing_mutsuki"
+		textureFile = "gfx/interface/standing/mutsuki_standing.dds"
+	}
+}

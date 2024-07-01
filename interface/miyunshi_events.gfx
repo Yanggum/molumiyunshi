@@ -1,0 +1,6 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_events_miyunshi_mutsuki"
+		texturefile = "gfx/interface/events/mutsuki.dds"
+	}
+}
