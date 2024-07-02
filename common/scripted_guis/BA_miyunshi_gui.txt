@@ -177,6 +177,9 @@ scripted_gui = {
 								BA_miyunshi_selected_character = 12
 							}
 							check_variable = {
+								BA_miyunshi_selected_character = 13
+							}
+							check_variable = {
 								BA_miyunshi_selected_character = 14
 							}
 						}

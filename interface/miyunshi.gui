@@ -21,7 +21,7 @@ guiTypes = {
 	containerWindowType = {
 		name = miyunshi_change_student_window
 		position = { x = -550 y = 325 }
-		size = { width = 190 height = 200 }
+		size = { width = 190 height = 600 }
 		Orientation = UPPER_RIGHT
 		origo = UPPER_RIGHT
 	
