@@ -14,3 +14,23 @@
  BA_miyunshi_generic_event.1.t: "알림"
  BA_miyunshi_generic_event.1.d: "행동력이 부족합니다."
  BA_miyunshi_generic_event.1.a: "알겠어"
+ 
+   # UI
+  miyunshi_button_change_to_azusa: "아즈사"
+  miyunshi_button_change_to_mutsuki: "무츠키"
+  miyunshi_button_change_to_aru: "아루"
+  miyunshi_button_change_to_hina: "히나"
+  miyunshi_button_change_to_hoshino: "호시노"
+  miyunshi_button_change_to_iroha: "이로하"
+  miyunshi_button_change_to_izuna: "이즈나"
+  miyunshi_button_change_to_kanna: "칸나"
+  miyunshi_button_change_to_kisaki: "키사키"
+  miyunshi_button_change_to_marina: "마리나"
+  miyunshi_button_change_to_mika: "미카"
+  miyunshi_button_change_to_miyako: "미야코"
+  miyunshi_button_change_to_rin: "린"
+  miyunshi_button_change_to_yuuka: "유우카"
+
+  # 국민정신
+  MYS_generic_lunch_idea: "그녀의 도시락"
+  MYS_generic_lunch_idea_desc: "정성이 가득 들어간 누군가의 도시락. 맛있게 먹어주세요."

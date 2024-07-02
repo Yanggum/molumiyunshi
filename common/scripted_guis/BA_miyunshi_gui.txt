@@ -445,6 +445,11 @@ scripted_gui = {
 					is_controlled_by = ROOT
 				}
 			}
+			btn_change_to_yuuka_visible = {
+				16 = {
+					is_controlled_by = ROOT
+				}
+			}
 		}
 
 	}

@@ -31,6 +31,15 @@ country_event = {
 	
 	option = {
 		name = BA_miyunshi_generic_zondae_event.3.a
+		if = {
+			limit = {
+				NOT = { has_idea = MYS_generic_lunch_idea }
+			}
+			add_timed_idea = {
+				idea = MYS_generic_lunch_idea
+				days = 90
+			}
+		}
 	}
 }
 country_event = {

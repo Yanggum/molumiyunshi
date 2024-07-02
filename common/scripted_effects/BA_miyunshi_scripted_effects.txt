@@ -1,0 +1,61 @@
+BA_miyunshi_set_affection = { #호감도 초기화
+	#   BA_miyunshi_selected_character
+	#   1 = 무츠키
+	#   2 = 아즈사
+	#   3 = 아루
+	#   4 = 히나
+	#   5 = 호시노
+	#   6 = 이로하
+	#   7 = 이즈나
+	#   8 = 칸나
+	#   9 = 키사키
+	#   10 = 마리나
+	#   11 = 미카
+	#   12 = 미야코
+	#   13 = 린
+	#   14 = 유우카
+	hidden_effect = {
+		set_variable = {
+			BA_miyunshi_mutsuki_affection = 0
+		}
+		set_variable = {
+			BA_miyunshi_azusa_affection = 0
+		}
+		set_variable = {
+			BA_miyunshi_aru_affection = 0
+		}
+		set_variable = {
+			BA_miyunshi_hina_affection = 0
+		}
+		set_variable = {
+			BA_miyunshi_hoshino_affection = 0
+		}
+		set_variable = {
+			BA_miyunshi_iroha_affection = 0
+		}
+		set_variable = {
+			BA_miyunshi_izuna_affection = 0
+		}
+		set_variable = {
+			BA_miyunshi_kanna_affection = 0
+		}
+		set_variable = {
+			BA_miyunshi_kisaki_affection = 0
+		}
+		set_variable = {
+			BA_miyunshi_marina_affection = 0
+		}
+		set_variable = {
+			BA_miyunshi_mika_affection = 0
+		}
+		set_variable = {
+			BA_miyunshi_miyako_affection = 0
+		}
+		set_variable = {
+			BA_miyunshi_rin_affection = 0
+		}
+		set_variable = {
+			BA_miyunshi_yuuka_affection = 0
+		}
+	}
+}

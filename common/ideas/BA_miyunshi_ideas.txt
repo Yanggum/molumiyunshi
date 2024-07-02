@@ -1,0 +1,13 @@
+ideas = {	
+	country = {
+		MYS_generic_lunch_idea = {
+			picture = MYS_lunch
+			allowed = { always = no }
+            allowed_civil_war = { always = no }
+			modifier = {
+				consumer_goods_factor = -0.10
+			}			
+		}
+
+	}
+}
