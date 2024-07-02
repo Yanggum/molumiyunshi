@@ -14,4 +14,67 @@ spriteTypes = {
 		textureFile = "gfx/interface/standing/mutsuki_standing.dds"
 		legacy_lazy_load = no
 	}
+
+	spriteType = {
+		name = "GFX_standing_aru"
+		textureFile = "gfx/interface/standing/aru_standing.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_standing_hina"
+		textureFile = "gfx/interface/standing/hina_standing.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_standing_hoshino"
+		textureFile = "gfx/interface/standing/hoshino_standing.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_standing_iroha"
+		textureFile = "gfx/interface/standing/iroha_standing.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_standing_izuna"
+		textureFile = "gfx/interface/standing/izuna_standing.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_standing_kanna"
+		textureFile = "gfx/interface/standing/kanna_standing.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_standing_kisaki"
+		textureFile = "gfx/interface/standing/kisaki_standing.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_standing_marina"
+		textureFile = "gfx/interface/standing/marina_standing.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_standing_mika"
+		textureFile = "gfx/interface/standing/mika_standing.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_standing_miyako"
+		textureFile = "gfx/interface/standing/miyako_standing.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_standing_rin"
+		textureFile = "gfx/interface/standing/rin_standing.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_standing_yuuka"
+		textureFile = "gfx/interface/standing/yuuka_standing.dds"
+		legacy_lazy_load = no
+	}
 }

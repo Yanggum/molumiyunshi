@@ -94,6 +94,24 @@ scripted_gui = {
 							check_variable = {
 								BA_miyunshi_selected_character = 2
 							}
+							check_variable = {
+								BA_miyunshi_selected_character = 3
+							}
+							check_variable = {
+								BA_miyunshi_selected_character = 4
+							}
+							check_variable = {
+								BA_miyunshi_selected_character = 5
+							}
+							check_variable = {
+								BA_miyunshi_selected_character = 9
+							}
+							check_variable = {
+								BA_miyunshi_selected_character = 10
+							}
+							check_variable = {
+								BA_miyunshi_selected_character = 11
+							}
 						}
 					}
 					random_list = {
@@ -147,10 +165,19 @@ scripted_gui = {
 						#  존댓말 캐릭터
 						OR = {
 							check_variable = {
-								BA_miyunshi_selected_character = 3
+								BA_miyunshi_selected_character = 6
 							}
 							check_variable = {
-								BA_miyunshi_selected_character = 4
+								BA_miyunshi_selected_character = 7
+							}
+							check_variable = {
+								BA_miyunshi_selected_character = 8
+							}
+							check_variable = {
+								BA_miyunshi_selected_character = 12
+							}
+							check_variable = {
+								BA_miyunshi_selected_character = 14
 							}
 						}
 					}
@@ -269,19 +296,78 @@ scripted_gui = {
 		}
 
 		effects = {
-			btn_change_to_azusa_click = {
-				set_variable = {
-					BA_miyunshi_selected_character = 2
-				}
-			}
-
 			btn_change_to_mutsuki_click = {
 				set_variable = {
 					BA_miyunshi_selected_character = 1
 				}
 			}
+			btn_change_to_azusa_click = {
+				set_variable = {
+					BA_miyunshi_selected_character = 2
+				}
+			}
+			btn_change_to_aru_click = {
+				set_variable = {
+					BA_miyunshi_selected_character = 3
+				}
+			}
+			btn_change_to_hina_click = {
+				set_variable = {
+					BA_miyunshi_selected_character = 4
+				}
+			}
+			btn_change_to_hoshino_click = {
+				set_variable = {
+					BA_miyunshi_selected_character = 5
+				}
+			}
+			btn_change_to_iroha_click = {
+				set_variable = {
+					BA_miyunshi_selected_character = 6
+				}
+			}
+			btn_change_to_izuna_click = {
+				set_variable = {
+					BA_miyunshi_selected_character = 7
+				}
+			}
+			btn_change_to_kanna_click = {
+				set_variable = {
+					BA_miyunshi_selected_character = 8
+				}
+			}
+			btn_change_to_kisaki_click = {
+				set_variable = {
+					BA_miyunshi_selected_character = 9
+				}
+			}
+			btn_change_to_marina_click = {
+				set_variable = {
+					BA_miyunshi_selected_character = 10
+				}
+			}
+			btn_change_to_mika_click = {
+				set_variable = {
+					BA_miyunshi_selected_character = 11
+				}
+			}
+			btn_change_to_miyako_click = {
+				set_variable = {
+					BA_miyunshi_selected_character = 12
+				}
+			}
+			btn_change_to_rin_click = {
+				set_variable = {
+					BA_miyunshi_selected_character = 13
+				}
+			}
+			btn_change_to_yuuka_click = {
+				set_variable = {
+					BA_miyunshi_selected_character = 14
+				}
+			}
 		}
-
+		
 		triggers = {
 			btn_change_to_azusa_visible = {
 				85 = {
@@ -293,6 +379,66 @@ scripted_gui = {
 			}
 			btn_change_to_mutsuki_visible = {
 				8 = {
+					is_controlled_by = ROOT
+				}
+			}
+			btn_change_to_aru_visible = {
+				8 = {
+					is_controlled_by = ROOT
+				}
+			}
+			btn_change_to_hina_visible = {
+				52 = {
+					is_controlled_by = ROOT
+				}
+			}
+			btn_change_to_hoshino_visible = {
+				985 = {
+					is_controlled_by = ROOT
+				}
+			}
+			btn_change_to_iroha_visible = {
+				55 = {
+					is_controlled_by = ROOT
+				}
+			}
+			btn_change_to_izuna_visible = {
+				9 = {
+					is_controlled_by = ROOT
+				}
+			}
+			btn_change_to_kanna_visible = {
+				34 = {
+					is_controlled_by = ROOT
+				}
+			}
+			btn_change_to_kisaki_visible = {
+				4 = {
+					is_controlled_by = ROOT
+				}
+			}
+			btn_change_to_marina_visible = {
+				141 = {
+					is_controlled_by = ROOT
+				}
+			}
+			btn_change_to_mika_visible = {
+				64 = {
+					is_controlled_by = ROOT
+				}
+			}
+			btn_change_to_mika_visible = {
+				64 = {
+					is_controlled_by = ROOT
+				}
+			}
+			btn_change_to_miyako_visible = {
+				14 = {
+					is_controlled_by = ROOT
+				}
+			}
+			btn_change_to_rin_visible = {
+				35 = {
 					is_controlled_by = ROOT
 				}
 			}

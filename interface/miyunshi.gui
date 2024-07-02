@@ -24,19 +24,19 @@ guiTypes = {
 		size = { width = 190 height = 200 }
 		Orientation = UPPER_RIGHT
 		origo = UPPER_RIGHT
-
+	
 		background = {
 			name = "Background"
 			quadTextureSprite = "GFX_tiled_window2_1b_border"
 		}
-
-		vertical_scroll_step = 20
-
+	
+		verticalScrollbar = "right_vertical_slider"
+	
 		buttonType = {
-			name = "btn_change_to_azusa"
+			name = "btn_change_to_mutsuki"
 			position = { x=-60 y=20 }
 			quadTextureSprite ="GFX_button_123x34"
-			buttonText = "miyunshi_button_change_to_azusa"
+			buttonText = "miyunshi_button_change_to_mutsuki"
 			buttonFont = "hoi_18mbs"
 			clicksound = click_ok
 			oversound = ui_menu_over
@@ -44,10 +44,142 @@ guiTypes = {
 		}
 		
 		buttonType = {
-			name = "btn_change_to_mutsuki"
+			name = "btn_change_to_azusa"
 			position = { x=-60 y=56 }
 			quadTextureSprite ="GFX_button_123x34"
-			buttonText = "miyunshi_button_change_to_mutsuki"
+			buttonText = "miyunshi_button_change_to_azusa"
+			buttonFont = "hoi_18mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = CENTER_UP			
+		}
+	
+		buttonType = {
+			name = "btn_change_to_aru"
+			position = { x=-60 y=92 }
+			quadTextureSprite ="GFX_button_123x34"
+			buttonText = "miyunshi_button_change_to_aru"
+			buttonFont = "hoi_18mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = CENTER_UP			
+		}
+	
+		buttonType = {
+			name = "btn_change_to_hina"
+			position = { x=-60 y=128 }
+			quadTextureSprite ="GFX_button_123x34"
+			buttonText = "miyunshi_button_change_to_hina"
+			buttonFont = "hoi_18mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = CENTER_UP			
+		}
+	
+		buttonType = {
+			name = "btn_change_to_hoshino"
+			position = { x=-60 y=164 }
+			quadTextureSprite ="GFX_button_123x34"
+			buttonText = "miyunshi_button_change_to_hoshino"
+			buttonFont = "hoi_18mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = CENTER_UP			
+		}
+	
+		buttonType = {
+			name = "btn_change_to_iroha"
+			position = { x=-60 y=200 }
+			quadTextureSprite ="GFX_button_123x34"
+			buttonText = "miyunshi_button_change_to_iroha"
+			buttonFont = "hoi_18mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = CENTER_UP			
+		}
+	
+		buttonType = {
+			name = "btn_change_to_izuna"
+			position = { x=-60 y=236 }
+			quadTextureSprite ="GFX_button_123x34"
+			buttonText = "miyunshi_button_change_to_izuna"
+			buttonFont = "hoi_18mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = CENTER_UP			
+		}
+	
+		buttonType = {
+			name = "btn_change_to_kanna"
+			position = { x=-60 y=272 }
+			quadTextureSprite ="GFX_button_123x34"
+			buttonText = "miyunshi_button_change_to_kanna"
+			buttonFont = "hoi_18mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = CENTER_UP			
+		}
+	
+		buttonType = {
+			name = "btn_change_to_kisaki"
+			position = { x=-60 y=308 }
+			quadTextureSprite ="GFX_button_123x34"
+			buttonText = "miyunshi_button_change_to_kisaki"
+			buttonFont = "hoi_18mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = CENTER_UP			
+		}
+	
+		buttonType = {
+			name = "btn_change_to_marina"
+			position = { x=-60 y=344 }
+			quadTextureSprite ="GFX_button_123x34"
+			buttonText = "miyunshi_button_change_to_marina"
+			buttonFont = "hoi_18mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = CENTER_UP			
+		}
+	
+		buttonType = {
+			name = "btn_change_to_mika"
+			position = { x=-60 y=380 }
+			quadTextureSprite ="GFX_button_123x34"
+			buttonText = "miyunshi_button_change_to_mika"
+			buttonFont = "hoi_18mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = CENTER_UP			
+		}
+	
+		buttonType = {
+			name = "btn_change_to_miyako"
+			position = { x=-60 y=416 }
+			quadTextureSprite ="GFX_button_123x34"
+			buttonText = "miyunshi_button_change_to_miyako"
+			buttonFont = "hoi_18mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = CENTER_UP			
+		}
+	
+		buttonType = {
+			name = "btn_change_to_rin"
+			position = { x=-60 y=452 }
+			quadTextureSprite ="GFX_button_123x34"
+			buttonText = "miyunshi_button_change_to_rin"
+			buttonFont = "hoi_18mbs"
+			clicksound = click_ok
+			oversound = ui_menu_over
+			Orientation = CENTER_UP			
+		}
+	
+		buttonType = {
+			name = "btn_change_to_yuuka"
+			position = { x=-60 y=488 }
+			quadTextureSprite ="GFX_button_123x34"
+			buttonText = "miyunshi_button_change_to_yuuka"
 			buttonFont = "hoi_18mbs"
 			clicksound = click_ok
 			oversound = ui_menu_over
@@ -78,7 +210,6 @@ guiTypes = {
 			name = "center_student"
 			position = { x = 200 y = 45 }
 			scale = 0.425
-			spriteType = "[ROOT.GetMiyunshiArchiveSelectedCharacterGfx]"
 			Orientation = UPPER_LEFT
 		}
 	

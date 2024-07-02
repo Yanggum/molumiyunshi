@@ -21,6 +21,18 @@ defined_text = {
 #   BA_miyunshi_selected_character
 #   1 = 무츠키
 #   2 = 아즈사
+#   3 = 아루
+#   4 = 히나
+#   5 = 호시노
+#   6 = 이로하
+#   7 = 이즈나
+#   8 = 칸나
+#   9 = 키사키
+#   10 = 마리나
+#   11 = 미카
+#   12 = 미야코
+#   13 = 린
+#   14 = 유우카
 
 defined_text = {
     name = GetMiyunshiArchiveSelectedCharacterGfx
@@ -48,6 +60,102 @@ defined_text = {
         }
         localization_key = GFX_standing_azusa
     }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 3
+            }        
+        }
+        localization_key = GFX_standing_aru
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 4
+            }        
+        }
+        localization_key = GFX_standing_hina
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 5
+            }        
+        }
+        localization_key = GFX_standing_hoshino
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 6
+            }        
+        }
+        localization_key = GFX_standing_iroha
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 7
+            }        
+        }
+        localization_key = GFX_standing_izuna
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 8
+            }        
+        }
+        localization_key = GFX_standing_kanna
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 9
+            }        
+        }
+        localization_key = GFX_standing_kisaki
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 10
+            }        
+        }
+        localization_key = GFX_standing_marina
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 11
+            }        
+        }
+        localization_key = GFX_standing_mika
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 12
+            }        
+        }
+        localization_key = GFX_standing_miyako
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 13
+            }        
+        }
+        localization_key = GFX_standing_rin
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 14
+            }        
+        }
+        localization_key = GFX_standing_yuuka
+    }
 }
 
 defined_text = {
@@ -68,6 +176,102 @@ defined_text = {
         }
         localization_key = GFX_events_miyunshi_azusa
     }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 3
+            }        
+        }
+        localization_key = GFX_events_miyunshi_aru
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 4
+            }        
+        }
+        localization_key = GFX_events_miyunshi_hina
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 5
+            }        
+        }
+        localization_key = GFX_events_miyunshi_hoshino
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 6
+            }        
+        }
+        localization_key = GFX_events_miyunshi_iroha
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 7
+            }        
+        }
+        localization_key = GFX_events_miyunshi_izuna
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 8
+            }        
+        }
+        localization_key = GFX_events_miyunshi_kanna
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 9
+            }        
+        }
+        localization_key = GFX_events_miyunshi_kisaki
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 10
+            }        
+        }
+        localization_key = GFX_events_miyunshi_marina
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 11
+            }        
+        }
+        localization_key = GFX_events_miyunshi_mika
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 12
+            }        
+        }
+        localization_key = GFX_events_miyunshi_miyako
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 13
+            }        
+        }
+        localization_key = GFX_events_miyunshi_rin
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 14
+            }        
+        }
+        localization_key = GFX_events_miyunshi_yuuka
+    }
 }
 
 defined_text = {
@@ -87,5 +291,101 @@ defined_text = {
             }        
         }
         localization_key = miyunshi_button_change_to_azusa
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 3
+            }        
+        }
+        localization_key = miyunshi_button_change_to_aru
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 4
+            }        
+        }
+        localization_key = miyunshi_button_change_to_hina
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 5
+            }        
+        }
+        localization_key = miyunshi_button_change_to_hoshino
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 6
+            }        
+        }
+        localization_key = miyunshi_button_change_to_iroha
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 7
+            }        
+        }
+        localization_key = miyunshi_button_change_to_izuna
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 8
+            }        
+        }
+        localization_key = miyunshi_button_change_to_kanna
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 9
+            }        
+        }
+        localization_key = miyunshi_button_change_to_kisaki
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 10
+            }        
+        }
+        localization_key = miyunshi_button_change_to_marina
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 11
+            }        
+        }
+        localization_key = miyunshi_button_change_to_mika
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 12
+            }        
+        }
+        localization_key = miyunshi_button_change_to_miyako
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 13
+            }        
+        }
+        localization_key = miyunshi_button_change_to_rin
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 14
+            }        
+        }
+        localization_key = miyunshi_button_change_to_yuuka
     }
 }

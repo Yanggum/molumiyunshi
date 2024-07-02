@@ -10,4 +10,65 @@ spriteTypes = {
 		textureFile = "gfx/interface/events/azusa.dds"
 		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_events_miyunshi_aru"
+		textureFile = "gfx/interface/events/aru.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_events_miyunshi_hina"
+		textureFile = "gfx/interface/events/hina.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_events_miyunshi_hoshino"
+		textureFile = "gfx/interface/events/hoshino.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_events_miyunshi_iroha"
+		textureFile = "gfx/interface/events/iroha.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_events_miyunshi_izuna"
+		textureFile = "gfx/interface/events/izuna.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_events_miyunshi_kanna"
+		textureFile = "gfx/interface/events/kanna.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_events_miyunshi_kisaki"
+		textureFile = "gfx/interface/events/kisaki.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_events_miyunshi_marina"
+		textureFile = "gfx/interface/events/marina.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_events_miyunshi_mika"
+		textureFile = "gfx/interface/events/mika.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_events_miyunshi_miyako"
+		textureFile = "gfx/interface/events/miyako.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_events_miyunshi_rin"
+		textureFile = "gfx/interface/events/rin.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_events_miyunshi_yuuka"
+		textureFile = "gfx/interface/events/yuuka.dds"
+		legacy_lazy_load = no
+	}
 }
