@@ -281,5 +281,22 @@ scripted_gui = {
 				}
 			}
 		}
+
+		triggers = {
+			btn_change_to_azusa_visible = {
+				85 = {
+					is_controlled_by = ROOT
+				}
+				64 = {
+					is_controlled_by = ROOT
+				}
+			}
+			btn_change_to_mutsuki_visible = {
+				8 = {
+					is_controlled_by = ROOT
+				}
+			}
+		}
+
 	}
 }
