@@ -18,8 +18,20 @@ defined_text = {
     }
 }
 
+#   BA_miyunshi_selected_character
+#   1 = 무츠키
+#   2 = 아즈사
+
 defined_text = {
-    name = GetMiyunshiArchiveCharacterText
+    name = GetMiyunshiArchiveSelectedCharacterGfx
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 0
+            }        
+        }
+        localization_key = ""
+    }
     text = {         
         trigger = {
             check_variable = {
@@ -35,5 +47,45 @@ defined_text = {
             }        
         }
         localization_key = GFX_standing_azusa
+    }
+}
+
+defined_text = {
+    name = GetMiyunshiArchiveSelectedCharacterEventGfx
+    text = {         
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 1
+            }        
+        }
+        localization_key = GFX_events_miyunshi_mutsuki
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 2
+            }        
+        }
+        localization_key = GFX_events_miyunshi_azusa
+    }
+}
+
+defined_text = {
+    name = GetMiyunshiArchiveCharacterName
+    text = {         
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 1
+            }        
+        }
+        localization_key = miyunshi_button_change_to_mutsuki
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 2
+            }        
+        }
+        localization_key = miyunshi_button_change_to_azusa
     }
 }

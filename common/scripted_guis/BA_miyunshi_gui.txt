@@ -1,7 +1,7 @@
 scripted_gui = {
 	miyunshi_window = {
-		context_type = player_context
 		window_name = miyunshi_window
+		context_type = player_context
 
 		ai_enabled = {
 			always = no
@@ -43,8 +43,8 @@ scripted_gui = {
 	}
 
 	miyunshi_container_window = {
-		context_type = player_context
 		window_name = miyunshi_container_window
+		context_type = player_context
 
 		ai_enabled = {
 			always = no
@@ -86,12 +86,114 @@ scripted_gui = {
 						check_variable = {
 							BA_miyunshi_point > 0
 						}
+						# 반말 캐릭터
+						OR = {
+							check_variable = {
+								BA_miyunshi_selected_character = 1
+							}
+							check_variable = {
+								BA_miyunshi_selected_character = 2
+							}
+						}
 					}
-					random = {
-						chance = 100
-						country_event = BA_miyunshi_mutsuki_event.1
-						subtract_from_variable = {
-							BA_miyunshi_point = 1
+					random_list = {
+						10 = { 
+							country_event = BA_miyunshi_generic_banmal_event.1
+							subtract_from_variable = { BA_miyunshi_point = 1 }
+						}
+						10 = { 
+							country_event = BA_miyunshi_generic_banmal_event.2
+							subtract_from_variable = { BA_miyunshi_point = 1 }
+						}
+						10 = { 
+							country_event = BA_miyunshi_generic_banmal_event.3
+							subtract_from_variable = { BA_miyunshi_point = 1 }
+						}
+						10 = { 
+							country_event = BA_miyunshi_generic_banmal_event.4
+							subtract_from_variable = { BA_miyunshi_point = 1 }
+						}
+						10 = { 
+							country_event = BA_miyunshi_generic_banmal_event.5
+							subtract_from_variable = { BA_miyunshi_point = 1 }
+						}
+						10 = { 
+							country_event = BA_miyunshi_generic_banmal_event.6
+							subtract_from_variable = { BA_miyunshi_point = 1 }
+						}
+						10 = { 
+							country_event = BA_miyunshi_generic_banmal_event.7
+							subtract_from_variable = { BA_miyunshi_point = 1 }
+						}
+						10 = { 
+							country_event = BA_miyunshi_generic_banmal_event.8
+							subtract_from_variable = { BA_miyunshi_point = 1 }
+						}
+						10 = { 
+							country_event = BA_miyunshi_generic_banmal_event.9
+							subtract_from_variable = { BA_miyunshi_point = 1 }
+						}
+						10 = { 
+							country_event = BA_miyunshi_generic_banmal_event.10
+							subtract_from_variable = { BA_miyunshi_point = 1 }
+						}
+					}
+				}
+				else_if = {
+					limit = {
+						check_variable = {
+							BA_miyunshi_point > 0
+						}
+						#  존댓말 캐릭터
+						OR = {
+							check_variable = {
+								BA_miyunshi_selected_character = 3
+							}
+							check_variable = {
+								BA_miyunshi_selected_character = 4
+							}
+						}
+					}
+					random_list = {
+						10 = { 
+							country_event = BA_miyunshi_generic_zondae_event.1
+							subtract_from_variable = { BA_miyunshi_point = 1 }
+						}
+						10 = { 
+							country_event = BA_miyunshi_generic_zondae_event.2
+							subtract_from_variable = { BA_miyunshi_point = 1 }
+						}
+						10 = { 
+							country_event = BA_miyunshi_generic_zondae_event.3
+							subtract_from_variable = { BA_miyunshi_point = 1 }
+						}
+						10 = { 
+							country_event = BA_miyunshi_generic_zondae_event.4
+							subtract_from_variable = { BA_miyunshi_point = 1 }
+						}
+						10 = { 
+							country_event = BA_miyunshi_generic_zondae_event.5
+							subtract_from_variable = { BA_miyunshi_point = 1 }
+						}
+						10 = { 
+							country_event = BA_miyunshi_generic_zondae_event.6
+							subtract_from_variable = { BA_miyunshi_point = 1 }
+						}
+						10 = { 
+							country_event = BA_miyunshi_generic_zondae_event.7
+							subtract_from_variable = { BA_miyunshi_point = 1 }
+						}
+						10 = { 
+							country_event = BA_miyunshi_generic_zondae_event.8
+							subtract_from_variable = { BA_miyunshi_point = 1 }
+						}
+						10 = { 
+							country_event = BA_miyunshi_generic_zondae_event.9
+							subtract_from_variable = { BA_miyunshi_point = 1 }
+						}
+						10 = { 
+							country_event = BA_miyunshi_generic_zondae_event.10
+							subtract_from_variable = { BA_miyunshi_point = 1 }
 						}
 					}
 				}
@@ -101,10 +203,7 @@ scripted_gui = {
 							BA_miyunshi_point < 1
 						}
 					}
-					random = {
-						chance = 100
-						country_event = BA_miyunshi_generic_event.1
-					}
+					country_event = BA_miyunshi_generic_event.1
 				}
 			}
 
@@ -150,14 +249,14 @@ scripted_gui = {
 
 		properties = {
 			center_student = {
-				image = "[ROOT.GetMiyunshiArchiveCharacterText]"
+				image = [ROOT.GetMiyunshiArchiveSelectedCharacterGfx]
 			}
 		}
 	}
 
 	miyunshi_change_student_window = {
-		context_type = player_context
 		window_name = miyunshi_change_student_window
+		context_type = player_context
 
 		ai_enabled = {
 			always = no

@@ -2,5 +2,12 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_events_miyunshi_mutsuki"
 		texturefile = "gfx/interface/events/mutsuki.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_events_miyunshi_azusa"
+		textureFile = "gfx/interface/events/azusa.dds"
+		legacy_lazy_load = no
 	}
 }

@@ -22,8 +22,7 @@ on_actions = {
 					BA_miyunshi_point = 5
 				}			
 				set_variable = {
-					# -1 선택 안함
-					BA_miyunshi_selected_character = -1
+					BA_miyunshi_selected_character = 0
 				}
 			}
 		}

@@ -7,9 +7,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_standing_azusa"
 		textureFile = "gfx/interface/standing/azusa_standing.dds"
+		legacy_lazy_load = no
 	}
 	spriteType = {
 		name = "GFX_standing_mutsuki"
 		textureFile = "gfx/interface/standing/mutsuki_standing.dds"
+		legacy_lazy_load = no
 	}
 }

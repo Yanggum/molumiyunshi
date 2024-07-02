@@ -4,7 +4,7 @@ country_event = {
 	id = BA_miyunshi_mutsuki_event.1
 	title = BA_miyunshi_mutsuki_event.1.t
 	desc = BA_miyunshi_mutsuki_event.1.d
-	picture = GFX_events_miyunshi_mutsuki
+	picture = "[ROOT.GetMiyunshiArchiveSelectedCharacterEventGfx]"
 
 	is_triggered_only = yes
 
