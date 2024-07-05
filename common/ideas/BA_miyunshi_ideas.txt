@@ -9,5 +9,76 @@ ideas = {
 			}			
 		}
 
+		MYS_starlit_inspiration = {
+			picture = generic_research_bonus
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {
+				research_speed_factor = 0.10
+			}
+		}
+
+		MYS_festival_spirit = {
+			picture = office_of_strategic_services
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+
+		MYS_crisis_management_boost = {
+			picture = ETH_dire_dawa_industries
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {
+				industrial_capacity_factory = 0.05
+			}
+		}
+
+		MYS_shared_umbrella_morale = {
+			picture = MYS_shared_umbrella
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {
+				army_morale_factor = 0.05
+			}
+		}
+
+		MYS_cherry_blossom_diplomacy = {
+			picture = generic_agrarian_society
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {
+				improve_relations_maintain_cost_factor = -0.10
+			}
+		}
+
+		MYS_seaside_rejuvenation = {
+			picture = ast_volunteer_defence_corps
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {
+				political_power_gain = 0.05
+			}
+		}
+
+		MYS_musical_inspiration = {
+			picture = generic_flexible_foreign_policy2
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {
+				war_support_factor = 0.05
+			}
+		}
+
+		MYS_literary_enlightenment = {
+			picture = generic_army_war_college
+			allowed = { always = no }
+			allowed_civil_war = { always = no }
+			modifier = {
+				political_advisor_cost_factor = -0.10
+			}
+		}
 	}
 }

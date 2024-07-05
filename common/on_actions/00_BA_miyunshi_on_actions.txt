@@ -9,6 +9,15 @@ on_actions = {
 				add_to_array = { # It will automatically add the scope
 					array = global.miyunshi_players
 				}
+				for_loop_effect = {
+					# end는 최대 학생 수 + 1
+					end = 21
+					
+					add_to_array = {
+						array = miyunshi_student_array
+						value = v
+					}
+				}	
 			}
 			for_each_scope_loop = {
 				array = global.miyunshi_players				

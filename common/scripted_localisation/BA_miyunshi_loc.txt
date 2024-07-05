@@ -33,6 +33,12 @@ defined_text = {
 #   12 = 미야코
 #   13 = 린
 #   14 = 유우카
+#   15 = 아리스
+#   16 = 마코토
+#   17 = 노아
+#   18 = 이부키
+#   19 = 키리노
+#   20 = 세리카
 
 defined_text = {
     name = GetMiyunshiArchiveSelectedCharacterGfx
@@ -156,6 +162,54 @@ defined_text = {
         }
         localization_key = GFX_standing_yuuka
     }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 15
+            }        
+        }
+        localization_key = GFX_standing_aris
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 16
+            }        
+        }
+        localization_key = GFX_standing_makoto
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 17
+            }        
+        }
+        localization_key = GFX_standing_noa
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 18
+            }        
+        }
+        localization_key = GFX_standing_ibuki
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 19
+            }        
+        }
+        localization_key = GFX_standing_kirino
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 20
+            }        
+        }
+        localization_key = GFX_standing_serika
+    }
 }
 
 defined_text = {
@@ -272,6 +326,54 @@ defined_text = {
         }
         localization_key = GFX_events_miyunshi_yuuka
     }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 15
+            }        
+        }
+        localization_key = GFX_events_miyunshi_aris
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 16
+            }        
+        }
+        localization_key = GFX_events_miyunshi_makoto
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 17
+            }        
+        }
+        localization_key = GFX_events_miyunshi_noa
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 18
+            }        
+        }
+        localization_key = GFX_events_miyunshi_ibuki
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 19
+            }        
+        }
+        localization_key = GFX_events_miyunshi_kirino
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 20
+            }        
+        }
+        localization_key = GFX_events_miyunshi_serika
+    }    
 }
 
 defined_text = {
@@ -387,5 +489,217 @@ defined_text = {
             }        
         }
         localization_key = miyunshi_button_change_to_yuuka
+    }    
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 15
+            }        
+        }
+        localization_key = miyunshi_button_change_to_aris
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 16
+            }        
+        }
+        localization_key = miyunshi_button_change_to_makoto
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 17
+            }        
+        }
+        localization_key = miyunshi_button_change_to_noa
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 18
+            }        
+        }
+        localization_key = miyunshi_button_change_to_ibuki
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 19
+            }        
+        }
+        localization_key = miyunshi_button_change_to_kirino
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                BA_miyunshi_selected_character = 20
+            }        
+        }
+        localization_key = miyunshi_button_change_to_serika
+    }
+}
+
+defined_text = {
+    name = GetStudentName
+    text = {
+        trigger = {
+            check_variable = {
+                v = 1
+            }
+        }
+        localization_key = "miyunshi_button_change_to_mutsuki"
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                v = 2
+            }
+        }
+        localization_key = "miyunshi_button_change_to_azusa"
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                v = 3
+            }
+        }
+        localization_key = "miyunshi_button_change_to_aru"
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                v = 4
+            }
+        }
+        localization_key = "miyunshi_button_change_to_hina"
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                v = 5
+            }
+        }
+        localization_key = "miyunshi_button_change_to_hoshino"
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                v = 6
+            }
+        }
+        localization_key = "miyunshi_button_change_to_iroha"
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                v = 7
+            }
+        }
+        localization_key = "miyunshi_button_change_to_izuna"
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                v = 8
+            }
+        }
+        localization_key = "miyunshi_button_change_to_kanna"
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                v = 9
+            }
+        }
+        localization_key = "miyunshi_button_change_to_kisaki"
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                v = 10
+            }
+        }
+        localization_key = "miyunshi_button_change_to_marina"
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                v = 11
+            }
+        }
+        localization_key = "miyunshi_button_change_to_mika"
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                v = 12
+            }
+        }
+        localization_key = "miyunshi_button_change_to_miyako"
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                v = 13
+            }
+        }
+        localization_key = "miyunshi_button_change_to_rin"
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                v = 14
+            }
+        }
+        localization_key = "miyunshi_button_change_to_yuuka"
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                v = 15
+            }
+        }
+        localization_key = "miyunshi_button_change_to_aris"
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                v = 16
+            }
+        }
+        localization_key = "miyunshi_button_change_to_makoto"
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                v = 17
+            }
+        }
+        localization_key = "miyunshi_button_change_to_noa"
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                v = 18
+            }
+        }
+        localization_key = "miyunshi_button_change_to_ibuki"
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                v = 19
+            }
+        }
+        localization_key = "miyunshi_button_change_to_kirino"
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                v = 20
+            }
+        }
+        localization_key = "miyunshi_button_change_to_serika"
     }
 }

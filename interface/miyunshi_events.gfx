@@ -71,4 +71,41 @@ spriteTypes = {
 		textureFile = "gfx/interface/events/yuuka.dds"
 		legacy_lazy_load = no
 	}
+	# 새캐릭들 (2024-07-05)
+	# 아리스 (15)
+	# 마코토 (16)
+	# 노아   (17)
+	# 이부키 (18)
+	# 키리노 (19)
+	# 세리카 (20)
+	spriteType = {
+		name = "GFX_events_miyunshi_aris"
+		textureFile = "gfx/interface/events/aris.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_events_miyunshi_makoto"
+		textureFile = "gfx/interface/events/makoto.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_events_miyunshi_noa"
+		textureFile = "gfx/interface/events/noa.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_events_miyunshi_ibuki"
+		textureFile = "gfx/interface/events/ibuki.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_events_miyunshi_kirino"
+		textureFile = "gfx/interface/events/kirino.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_events_miyunshi_serika"
+		textureFile = "gfx/interface/events/serika.dds"
+		legacy_lazy_load = no
+	}
 }

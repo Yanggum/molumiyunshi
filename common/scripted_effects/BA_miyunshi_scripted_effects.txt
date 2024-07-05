@@ -14,6 +14,12 @@ BA_miyunshi_set_affection = { #호감도 초기화
 	#   12 = 미야코
 	#   13 = 린
 	#   14 = 유우카
+	#   15 = 아리스
+	#   16 = 마코토
+	#   17 = 노아
+	#   18 = 이부키
+	#   19 = 키리노
+	#   20 = 세리카
 	hidden_effect = {
 		set_variable = {
 			BA_miyunshi_mutsuki_affection = 0
@@ -57,5 +63,696 @@ BA_miyunshi_set_affection = { #호감도 초기화
 		set_variable = {
 			BA_miyunshi_yuuka_affection = 0
 		}
+		set_variable = {
+			BA_miyunshi_aris_affection = 0
+		}
+		set_variable = {
+			BA_miyunshi_makoto_affection = 0
+		}
+		set_variable = {
+			BA_miyunshi_noa_affection = 0
+		}
+		set_variable = {
+			BA_miyunshi_ibuki_affection = 0
+		}
+		set_variable = {
+			BA_miyunshi_kirino_affection = 0
+		}
+		set_variable = {
+			BA_miyunshi_serika_affection = 0
+		}		
 	}
+}
+
+BA_miyunshi_add_affection = {
+	hidden_effect = {
+		if = {
+			limit = {
+				check_variable = {					
+					BA_miyunshi_selected_character = 1
+				}
+			}			
+			add_to_variable = {
+				which = BA_miyunshi_mutsuki_affection
+				value = 1
+			}			
+		}
+		else_if = {
+			limit = {
+				check_variable = {					
+					BA_miyunshi_selected_character = 2
+				}
+			}
+			add_to_variable = {
+				which = BA_miyunshi_azusa_affection
+				value = 1
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {					
+					BA_miyunshi_selected_character = 3
+				}
+			}
+			add_to_variable = {
+				which = BA_miyunshi_aru_affection
+				value = 1
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {					
+					BA_miyunshi_selected_character = 4
+				}
+			}
+			add_to_variable = {
+				which = BA_miyunshi_hina_affection
+				value = 1
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {					
+					BA_miyunshi_selected_character = 5
+				}
+			}
+			add_to_variable = {
+				which = BA_miyunshi_hoshino_affection
+				value = 1
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {					
+					BA_miyunshi_selected_character = 6
+				}
+			}
+			add_to_variable = {
+				which = BA_miyunshi_iroha_affection
+				value = 1
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {					
+					BA_miyunshi_selected_character = 7
+				}
+			}
+			add_to_variable = {
+				which = BA_miyunshi_izuna_affection
+				value = 1
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {					
+					BA_miyunshi_selected_character = 8
+				}
+			}
+			add_to_variable = {
+				which = BA_miyunshi_kanna_affection
+				value = 1
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {					
+					BA_miyunshi_selected_character = 9
+				}
+			}
+			add_to_variable = {
+				which = BA_miyunshi_kisaki_affection
+				value = 1
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {					
+					BA_miyunshi_selected_character = 10
+				}
+			}
+			add_to_variable = {
+				which = BA_miyunshi_marina_affection
+				value = 1
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {					
+					BA_miyunshi_selected_character = 11
+				}
+			}
+			add_to_variable = {
+				which = BA_miyunshi_mika_affection
+				value = 1
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {					
+					BA_miyunshi_selected_character = 12
+				}
+			}
+			add_to_variable = {
+				which = BA_miyunshi_miyako_affection
+				value = 1
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {					
+					BA_miyunshi_selected_character = 13
+				}
+			}
+			add_to_variable = {
+				which = BA_miyunshi_rin_affection
+				value = 1
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {					
+					BA_miyunshi_selected_character = 14
+				}
+			}
+			add_to_variable = {
+				which = BA_miyunshi_yuuka_affection
+				value = 1
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {					
+					BA_miyunshi_selected_character = 15
+				}
+			}
+			add_to_variable = {
+				which = BA_miyunshi_aris_affection
+				value = 1
+			}		
+		}
+		else_if = {
+			limit = {
+				check_variable = {					
+					BA_miyunshi_selected_character = 16
+				}
+			}
+			add_to_variable = {
+				which = BA_miyunshi_makoto_affection
+				value = 1
+			}		
+		}
+		else_if = {
+			limit = { # 노아
+				check_variable = {					
+					BA_miyunshi_selected_character = 17
+				}
+			}
+			add_to_variable = {
+				which = BA_miyunshi_noa_affection
+				value = 1
+			}
+		}
+		else_if = {
+			limit = { # 이부키
+				check_variable = {					
+					BA_miyunshi_selected_character = 18
+				}
+			}
+			add_to_variable = {
+				which = BA_miyunshi_ibuki_affection
+				value = 1
+			}
+		}
+		else_if = {
+			limit = { # 키리노
+				check_variable = {					
+					BA_miyunshi_selected_character = 19
+				}
+			}
+			add_to_variable = {
+				which = BA_miyunshi_kirino_affection
+				value = 1
+			}
+		}
+		else_if = {
+			limit = { # 세리카
+				check_variable = {					
+					BA_miyunshi_selected_character = 20
+				}
+			}
+			add_to_variable = {
+				which = BA_miyunshi_serika_affection
+				value = 1
+			}
+		}
+	}
+}
+
+BA_miyunshi_generic_conv = {
+	if = {
+		limit = {
+			is_student_affection_than_friends_less_than_lovers_trigger = yes
+			check_variable = {
+				BA_miyunshi_point > 0
+			}
+			#  존댓말 캐릭터(이로하, 이즈나, 칸나, 미야코, 린, 유우카, 아리스, 노아, 키리노)
+			OR = {
+				check_variable = {
+					BA_miyunshi_selected_character = 6
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 7
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 8
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 12
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 13
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 14
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 15
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 17
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 19
+				}
+			}
+		}
+		random_list = {
+			4 = { 
+				country_event = BA_miyunshi_generic_zondae_event.1
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_zondae_event.2
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_zondae_event.3
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_zondae_event.4
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_zondae_event.5
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_zondae_event.6
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_zondae_event.7
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_zondae_event.8
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_zondae_event.9
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_zondae_event.10
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_zondae_event.11
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_zondae_event.12
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_zondae_event.13
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_zondae_event.14
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_zondae_event.15
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_zondae_event.16
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_zondae_event.17
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_zondae_event.18
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_zondae_event.19
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_zondae_event.20
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_zondae_event.21
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_zondae_event.22
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_zondae_event.23
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_zondae_event.24
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_zondae_event.25
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				BA_miyunshi_point > 0
+			}
+			#  존댓말 캐릭터(이로하, 이즈나, 칸나, 미야코, 린, 유우카, 아리스, 노아, 키리노)
+			OR = {
+				check_variable = {
+					BA_miyunshi_selected_character = 6
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 7
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 8
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 12
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 13
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 14
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 15
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 17
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 19
+				}
+			}
+		}
+		random_list = {
+			10 = { 
+				country_event = BA_miyunshi_generic_zondae_event.1
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			10 = { 
+				country_event = BA_miyunshi_generic_zondae_event.2
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			10 = { 
+				country_event = BA_miyunshi_generic_zondae_event.3
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			10 = { 
+				country_event = BA_miyunshi_generic_zondae_event.4
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			10 = { 
+				country_event = BA_miyunshi_generic_zondae_event.5
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			10 = { 
+				country_event = BA_miyunshi_generic_zondae_event.6
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			10 = { 
+				country_event = BA_miyunshi_generic_zondae_event.7
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			10 = { 
+				country_event = BA_miyunshi_generic_zondae_event.8
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			10 = { 
+				country_event = BA_miyunshi_generic_zondae_event.9
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			10 = { 
+				country_event = BA_miyunshi_generic_zondae_event.10
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			is_student_affection_than_friends_less_than_lovers_trigger = yes
+			check_variable = {
+				BA_miyunshi_point > 0
+			}
+			# 반말 캐릭터(무츠키, 아즈사, 아루, 히나, 호시노, 키사키, 마리나, 미카, 마코토, 이부키, 세리카)
+			OR = {
+				check_variable = {
+					BA_miyunshi_selected_character = 1
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 2
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 3
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 4
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 5
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 9
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 10
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 11
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 16
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 18
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 20
+				}
+			}
+		}
+		random_list = {
+			4 = { 
+				country_event = BA_miyunshi_generic_banmal_event.1
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_banmal_event.2
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_banmal_event.3
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_banmal_event.4
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_banmal_event.5
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_banmal_event.6
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_banmal_event.7
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_banmal_event.8
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_banmal_event.9
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_banmal_event.10
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_banmal_event.11
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_banmal_event.12
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_banmal_event.13
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_banmal_event.14
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_banmal_event.15
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_banmal_event.16
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_banmal_event.17
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_banmal_event.18
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_banmal_event.19
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_banmal_event.20
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_banmal_event.21
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_banmal_event.22
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_banmal_event.23
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_banmal_event.24
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			4 = { 
+				country_event = BA_miyunshi_generic_banmal_event.25
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				BA_miyunshi_point > 0
+			}
+			# 반말 캐릭터(무츠키, 아즈사, 아루, 히나, 호시노, 키사키, 마리나, 미카, 마코토, 이부키, 세리카)
+			OR = {
+				check_variable = {
+					BA_miyunshi_selected_character = 6
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 7
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 8
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 12
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 13
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 14
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 16
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 18
+				}
+				check_variable = {
+					BA_miyunshi_selected_character = 20
+				}
+			}
+		}
+		random_list = {
+			10 = { 
+				country_event = BA_miyunshi_generic_banmal_event.1
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			10 = { 
+				country_event = BA_miyunshi_generic_banmal_event.2
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			10 = { 
+				country_event = BA_miyunshi_generic_banmal_event.3
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			10 = { 
+				country_event = BA_miyunshi_generic_banmal_event.4
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			10 = { 
+				country_event = BA_miyunshi_generic_banmal_event.5
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			10 = { 
+				country_event = BA_miyunshi_generic_banmal_event.6
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			10 = { 
+				country_event = BA_miyunshi_generic_banmal_event.7
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			10 = { 
+				country_event = BA_miyunshi_generic_banmal_event.8
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			10 = { 
+				country_event = BA_miyunshi_generic_banmal_event.9
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+			10 = { 
+				country_event = BA_miyunshi_generic_banmal_event.10
+				subtract_from_variable = { BA_miyunshi_point = 1 }
+			}
+		}
+	}
+	custom_effect_tooltip = BA_miyunshi_affection_tt
 }

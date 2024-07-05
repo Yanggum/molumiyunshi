@@ -9,6 +9,7 @@ country_event = {
 	
 	option = {
 		name = BA_miyunshi_generic_zondae_event.1.a
+		BA_miyunshi_add_affection = yes
 	}
 }
 country_event = {
@@ -20,6 +21,7 @@ country_event = {
 	
 	option = {
 		name = BA_miyunshi_generic_zondae_event.2.a
+		BA_miyunshi_add_affection = yes
 	}
 }
 country_event = {
@@ -40,6 +42,7 @@ country_event = {
 				days = 90
 			}
 		}
+		BA_miyunshi_add_affection = yes
 	}
 }
 country_event = {
@@ -51,6 +54,7 @@ country_event = {
 	
 	option = {
 		name = BA_miyunshi_generic_zondae_event.4.a
+		BA_miyunshi_add_affection = yes
 	}
 }
 country_event = {
@@ -62,6 +66,7 @@ country_event = {
 	
 	option = {
 		name = BA_miyunshi_generic_zondae_event.5.a
+		BA_miyunshi_add_affection = yes
 	}
 }
 country_event = {
@@ -73,6 +78,7 @@ country_event = {
 	
 	option = {
 		name = BA_miyunshi_generic_zondae_event.6.a
+		BA_miyunshi_add_affection = yes
 	}
 }
 country_event = {
@@ -84,6 +90,16 @@ country_event = {
 	
 	option = {
 		name = BA_miyunshi_generic_zondae_event.7.a
+		if = {
+			limit = {
+				NOT = { has_idea = MYS_festival_spirit }
+			}
+			add_timed_idea = {
+				idea = MYS_festival_spirit
+				days = 120
+			}
+		}
+		BA_miyunshi_add_affection = yes
 	}
 }
 country_event = {
@@ -95,6 +111,16 @@ country_event = {
 	
 	option = {
 		name = BA_miyunshi_generic_zondae_event.8.a
+		if = {
+			limit = {
+				NOT = { has_idea = MYS_starlit_inspiration }
+			}
+			add_timed_idea = {
+				idea = MYS_starlit_inspiration
+				days = 90
+			}
+		}
+		BA_miyunshi_add_affection = yes
 	}
 }
 country_event = {
@@ -106,6 +132,17 @@ country_event = {
 	
 	option = {
 		name = BA_miyunshi_generic_zondae_event.9.a
+		if = {
+			limit = {
+				NOT = { has_idea = MYS_crisis_management_boost }
+			}
+			add_timed_idea = {
+				idea = MYS_crisis_management_boost
+				days = 120
+			}
+		}
+		BA_miyunshi_add_affection = yes
+		
 	}
 }
 country_event = {
@@ -117,5 +154,246 @@ country_event = {
 	
 	option = {
 		name = BA_miyunshi_generic_zondae_event.10.a
+		BA_miyunshi_add_affection = yes
+	}
+}
+
+country_event = {
+	id = BA_miyunshi_generic_zondae_event.11
+	title = BA_miyunshi_generic_zondae_event.11.t
+	desc = BA_miyunshi_generic_zondae_event.11.d
+	picture = "[ROOT.GetMiyunshiArchiveSelectedCharacterEventGfx]"
+	is_triggered_only = yes
+	
+	option = {
+		name = BA_miyunshi_generic_zondae_event.11.a
+		BA_miyunshi_add_affection = yes
+	}
+}
+
+country_event = {
+	id = BA_miyunshi_generic_zondae_event.12
+	title = BA_miyunshi_generic_zondae_event.12.t
+	desc = BA_miyunshi_generic_zondae_event.12.d
+	picture = "[ROOT.GetMiyunshiArchiveSelectedCharacterEventGfx]"
+	is_triggered_only = yes
+	
+	option = {
+		name = BA_miyunshi_generic_zondae_event.12.a
+		if = {
+			limit = {
+				NOT = { has_idea = MYS_shared_umbrella_morale }
+			}
+			add_timed_idea = {
+				idea = MYS_shared_umbrella_morale
+				days = 120
+			}
+		}
+		BA_miyunshi_add_affection = yes
+	}
+}
+
+country_event = {
+	id = BA_miyunshi_generic_zondae_event.13
+	title = BA_miyunshi_generic_zondae_event.13.t
+	desc = BA_miyunshi_generic_zondae_event.13.d
+	picture = "[ROOT.GetMiyunshiArchiveSelectedCharacterEventGfx]"
+	is_triggered_only = yes
+	
+	option = {
+		name = BA_miyunshi_generic_zondae_event.13.a
+		BA_miyunshi_add_affection = yes
+	}
+}
+
+country_event = {
+	id = BA_miyunshi_generic_zondae_event.14
+	title = BA_miyunshi_generic_zondae_event.14.t
+	desc = BA_miyunshi_generic_zondae_event.14.d
+	picture = "[ROOT.GetMiyunshiArchiveSelectedCharacterEventGfx]"
+	is_triggered_only = yes
+	
+	option = {
+		name = BA_miyunshi_generic_zondae_event.14.a
+		BA_miyunshi_add_affection = yes
+	}
+}
+
+country_event = {
+	id = BA_miyunshi_generic_zondae_event.15
+	title = BA_miyunshi_generic_zondae_event.15.t
+	desc = BA_miyunshi_generic_zondae_event.15.d
+	picture = "[ROOT.GetMiyunshiArchiveSelectedCharacterEventGfx]"
+	is_triggered_only = yes
+	
+	option = {
+		name = BA_miyunshi_generic_zondae_event.15.a
+		BA_miyunshi_add_affection = yes
+	}
+}
+
+country_event = {
+	id = BA_miyunshi_generic_zondae_event.16
+	title = BA_miyunshi_generic_zondae_event.16.t
+	desc = BA_miyunshi_generic_zondae_event.16.d
+	picture = "[ROOT.GetMiyunshiArchiveSelectedCharacterEventGfx]"
+	is_triggered_only = yes
+	
+	option = {
+		name = BA_miyunshi_generic_zondae_event.16.a
+		if = {
+			limit = {
+				NOT = { has_idea = MYS_cherry_blossom_diplomacy }
+			}
+			add_timed_idea = {
+				idea = MYS_cherry_blossom_diplomacy
+				days = 120
+			}
+		}
+		BA_miyunshi_add_affection = yes
+	}
+}
+
+country_event = {
+	id = BA_miyunshi_generic_zondae_event.17
+	title = BA_miyunshi_generic_zondae_event.17.t
+	desc = BA_miyunshi_generic_zondae_event.17.d
+	picture = "[ROOT.GetMiyunshiArchiveSelectedCharacterEventGfx]"
+	is_triggered_only = yes
+	
+	option = {
+		name = BA_miyunshi_generic_zondae_event.17.a
+		BA_miyunshi_add_affection = yes
+	}
+}
+
+country_event = {
+	id = BA_miyunshi_generic_zondae_event.18
+	title = BA_miyunshi_generic_zondae_event.18.t
+	desc = BA_miyunshi_generic_zondae_event.18.d
+	picture = "[ROOT.GetMiyunshiArchiveSelectedCharacterEventGfx]"
+	is_triggered_only = yes
+	
+	option = {
+		name = BA_miyunshi_generic_zondae_event.18.a
+		BA_miyunshi_add_affection = yes
+	}
+}
+
+country_event = {
+	id = BA_miyunshi_generic_zondae_event.19
+	title = BA_miyunshi_generic_zondae_event.19.t
+	desc = BA_miyunshi_generic_zondae_event.19.d
+	picture = "[ROOT.GetMiyunshiArchiveSelectedCharacterEventGfx]"
+	is_triggered_only = yes
+	
+	option = {
+		name = BA_miyunshi_generic_zondae_event.19.a
+		if = {
+			limit = {
+				NOT = { has_idea = MYS_seaside_rejuvenation }
+			}
+			add_timed_idea = {
+				idea = MYS_seaside_rejuvenation
+				days = 120
+			}
+		}
+		BA_miyunshi_add_affection = yes
+	}
+}
+
+country_event = {
+	id = BA_miyunshi_generic_zondae_event.20
+	title = BA_miyunshi_generic_zondae_event.20.t
+	desc = BA_miyunshi_generic_zondae_event.20.d
+	picture = "[ROOT.GetMiyunshiArchiveSelectedCharacterEventGfx]"
+	is_triggered_only = yes
+	
+	option = {
+		name = BA_miyunshi_generic_zondae_event.20.a
+		BA_miyunshi_add_affection = yes
+	}
+}
+
+country_event = {
+	id = BA_miyunshi_generic_zondae_event.21
+	title = BA_miyunshi_generic_zondae_event.21.t
+	desc = BA_miyunshi_generic_zondae_event.21.d
+	picture = "[ROOT.GetMiyunshiArchiveSelectedCharacterEventGfx]"
+	is_triggered_only = yes
+	
+	option = {
+		name = BA_miyunshi_generic_zondae_event.21.a
+		BA_miyunshi_add_affection = yes
+	}
+}
+
+country_event = {
+	id = BA_miyunshi_generic_zondae_event.22
+	title = BA_miyunshi_generic_zondae_event.22.t
+	desc = BA_miyunshi_generic_zondae_event.22.d
+	picture = "[ROOT.GetMiyunshiArchiveSelectedCharacterEventGfx]"
+	is_triggered_only = yes
+	
+	option = {
+		name = BA_miyunshi_generic_zondae_event.22.a
+		if = {
+			limit = {
+				NOT = { has_idea = MYS_musical_inspiration }
+			}
+			add_timed_idea = {
+				idea = MYS_musical_inspiration
+				days = 120
+			}
+		}
+		BA_miyunshi_add_affection = yes
+	}
+}
+
+country_event = {
+	id = BA_miyunshi_generic_zondae_event.23
+	title = BA_miyunshi_generic_zondae_event.23.t
+	desc = BA_miyunshi_generic_zondae_event.23.d
+	picture = "[ROOT.GetMiyunshiArchiveSelectedCharacterEventGfx]"
+	is_triggered_only = yes
+	
+	option = {
+		name = BA_miyunshi_generic_zondae_event.23.a
+		BA_miyunshi_add_affection = yes
+	}
+}
+
+country_event = {
+	id = BA_miyunshi_generic_zondae_event.24
+	title = BA_miyunshi_generic_zondae_event.24.t
+	desc = BA_miyunshi_generic_zondae_event.24.d
+	picture = "[ROOT.GetMiyunshiArchiveSelectedCharacterEventGfx]"
+	is_triggered_only = yes
+	
+	option = {
+		name = BA_miyunshi_generic_zondae_event.24.a
+		BA_miyunshi_add_affection = yes
+	}
+}
+
+country_event = {
+	id = BA_miyunshi_generic_zondae_event.25
+	title = BA_miyunshi_generic_zondae_event.25.t
+	desc = BA_miyunshi_generic_zondae_event.25.d
+	picture = "[ROOT.GetMiyunshiArchiveSelectedCharacterEventGfx]"
+	is_triggered_only = yes
+	
+	option = {
+		name = BA_miyunshi_generic_zondae_event.25.a
+		if = {
+			limit = {
+				NOT = { has_idea = MYS_literary_enlightenment }
+			}
+			add_timed_idea = {
+				idea = MYS_literary_enlightenment
+				days = 120
+			}
+		}
+		BA_miyunshi_add_affection = yes
 	}
 }

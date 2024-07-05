@@ -2,6 +2,7 @@ scripted_gui = {
 	miyunshi_window = {
 		window_name = miyunshi_window
 		context_type = player_context
+		parent_window_token = top_bar
 
 		ai_enabled = {
 			always = no
@@ -11,6 +12,7 @@ scripted_gui = {
 			check_variable = {
 				BA_show_miyunshi_button = 1				
 			} 
+			
 		}
 
 		effects = {
@@ -81,160 +83,7 @@ scripted_gui = {
 			}
 
 			miyunshi_button_conv_click = {
-				if = {
-					limit = {
-						check_variable = {
-							BA_miyunshi_point > 0
-						}
-						# 반말 캐릭터
-						OR = {
-							check_variable = {
-								BA_miyunshi_selected_character = 1
-							}
-							check_variable = {
-								BA_miyunshi_selected_character = 2
-							}
-							check_variable = {
-								BA_miyunshi_selected_character = 3
-							}
-							check_variable = {
-								BA_miyunshi_selected_character = 4
-							}
-							check_variable = {
-								BA_miyunshi_selected_character = 5
-							}
-							check_variable = {
-								BA_miyunshi_selected_character = 9
-							}
-							check_variable = {
-								BA_miyunshi_selected_character = 10
-							}
-							check_variable = {
-								BA_miyunshi_selected_character = 11
-							}
-						}
-					}
-					random_list = {
-						10 = { 
-							country_event = BA_miyunshi_generic_banmal_event.1
-							subtract_from_variable = { BA_miyunshi_point = 1 }
-						}
-						10 = { 
-							country_event = BA_miyunshi_generic_banmal_event.2
-							subtract_from_variable = { BA_miyunshi_point = 1 }
-						}
-						10 = { 
-							country_event = BA_miyunshi_generic_banmal_event.3
-							subtract_from_variable = { BA_miyunshi_point = 1 }
-						}
-						10 = { 
-							country_event = BA_miyunshi_generic_banmal_event.4
-							subtract_from_variable = { BA_miyunshi_point = 1 }
-						}
-						10 = { 
-							country_event = BA_miyunshi_generic_banmal_event.5
-							subtract_from_variable = { BA_miyunshi_point = 1 }
-						}
-						10 = { 
-							country_event = BA_miyunshi_generic_banmal_event.6
-							subtract_from_variable = { BA_miyunshi_point = 1 }
-						}
-						10 = { 
-							country_event = BA_miyunshi_generic_banmal_event.7
-							subtract_from_variable = { BA_miyunshi_point = 1 }
-						}
-						10 = { 
-							country_event = BA_miyunshi_generic_banmal_event.8
-							subtract_from_variable = { BA_miyunshi_point = 1 }
-						}
-						10 = { 
-							country_event = BA_miyunshi_generic_banmal_event.9
-							subtract_from_variable = { BA_miyunshi_point = 1 }
-						}
-						10 = { 
-							country_event = BA_miyunshi_generic_banmal_event.10
-							subtract_from_variable = { BA_miyunshi_point = 1 }
-						}
-					}
-				}
-				else_if = {
-					limit = {
-						check_variable = {
-							BA_miyunshi_point > 0
-						}
-						#  존댓말 캐릭터
-						OR = {
-							check_variable = {
-								BA_miyunshi_selected_character = 6
-							}
-							check_variable = {
-								BA_miyunshi_selected_character = 7
-							}
-							check_variable = {
-								BA_miyunshi_selected_character = 8
-							}
-							check_variable = {
-								BA_miyunshi_selected_character = 12
-							}
-							check_variable = {
-								BA_miyunshi_selected_character = 13
-							}
-							check_variable = {
-								BA_miyunshi_selected_character = 14
-							}
-						}
-					}
-					random_list = {
-						10 = { 
-							country_event = BA_miyunshi_generic_zondae_event.1
-							subtract_from_variable = { BA_miyunshi_point = 1 }
-						}
-						10 = { 
-							country_event = BA_miyunshi_generic_zondae_event.2
-							subtract_from_variable = { BA_miyunshi_point = 1 }
-						}
-						10 = { 
-							country_event = BA_miyunshi_generic_zondae_event.3
-							subtract_from_variable = { BA_miyunshi_point = 1 }
-						}
-						10 = { 
-							country_event = BA_miyunshi_generic_zondae_event.4
-							subtract_from_variable = { BA_miyunshi_point = 1 }
-						}
-						10 = { 
-							country_event = BA_miyunshi_generic_zondae_event.5
-							subtract_from_variable = { BA_miyunshi_point = 1 }
-						}
-						10 = { 
-							country_event = BA_miyunshi_generic_zondae_event.6
-							subtract_from_variable = { BA_miyunshi_point = 1 }
-						}
-						10 = { 
-							country_event = BA_miyunshi_generic_zondae_event.7
-							subtract_from_variable = { BA_miyunshi_point = 1 }
-						}
-						10 = { 
-							country_event = BA_miyunshi_generic_zondae_event.8
-							subtract_from_variable = { BA_miyunshi_point = 1 }
-						}
-						10 = { 
-							country_event = BA_miyunshi_generic_zondae_event.9
-							subtract_from_variable = { BA_miyunshi_point = 1 }
-						}
-						10 = { 
-							country_event = BA_miyunshi_generic_zondae_event.10
-							subtract_from_variable = { BA_miyunshi_point = 1 }
-						}
-					}
-				}
-				else_if = {
-					limit = { 
-						check_variable = {
-							BA_miyunshi_point < 1
-						}
-					}
-					country_event = BA_miyunshi_generic_event.1
-				}
+				BA_miyunshi_generic_conv = yes
 			}
 
 			miyunshi_button_change_student_click = {
@@ -285,172 +134,125 @@ scripted_gui = {
 	}
 
 	miyunshi_change_student_window = {
-		window_name = miyunshi_change_student_window
-		context_type = player_context
+        window_name = miyunshi_change_student_window
+        context_type = player_context
 
-		ai_enabled = {
-			always = no
-		}
+        ai_enabled = {
+            always = no
+        }
 
-		visible = {
-			check_variable = {
-				BA_miyunshi_select_open = 1
-			}		
-		}
+        visible = {
+            check_variable = {
+                BA_miyunshi_select_open = 1
+            }       
+        }
 
-		effects = {
-			btn_change_to_mutsuki_click = {
-				set_variable = {
-					BA_miyunshi_selected_character = 1
-				}
-			}
-			btn_change_to_azusa_click = {
-				set_variable = {
-					BA_miyunshi_selected_character = 2
-				}
-			}
-			btn_change_to_aru_click = {
-				set_variable = {
-					BA_miyunshi_selected_character = 3
-				}
-			}
-			btn_change_to_hina_click = {
-				set_variable = {
-					BA_miyunshi_selected_character = 4
-				}
-			}
-			btn_change_to_hoshino_click = {
-				set_variable = {
-					BA_miyunshi_selected_character = 5
-				}
-			}
-			btn_change_to_iroha_click = {
-				set_variable = {
-					BA_miyunshi_selected_character = 6
-				}
-			}
-			btn_change_to_izuna_click = {
-				set_variable = {
-					BA_miyunshi_selected_character = 7
-				}
-			}
-			btn_change_to_kanna_click = {
-				set_variable = {
-					BA_miyunshi_selected_character = 8
-				}
-			}
-			btn_change_to_kisaki_click = {
-				set_variable = {
-					BA_miyunshi_selected_character = 9
-				}
-			}
-			btn_change_to_marina_click = {
-				set_variable = {
-					BA_miyunshi_selected_character = 10
-				}
-			}
-			btn_change_to_mika_click = {
-				set_variable = {
-					BA_miyunshi_selected_character = 11
-				}
-			}
-			btn_change_to_miyako_click = {
-				set_variable = {
-					BA_miyunshi_selected_character = 12
-				}
-			}
-			btn_change_to_rin_click = {
-				set_variable = {
-					BA_miyunshi_selected_character = 13
-				}
-			}
-			btn_change_to_yuuka_click = {
-				set_variable = {
-					BA_miyunshi_selected_character = 14
-				}
+		dynamic_lists = {
+			miyunshi_student_list = {
+				array = ROOT.miyunshi_student_array
+				change_scope = no
+				entry_container = miyunshi_student_entry
+				# #value of the current array index. Optional. Default value is v.
+				# value = v
+				# #current array index. Optional. Default value is i.
+				# index = i				
 			}
 		}
-		
-		triggers = {
-			btn_change_to_azusa_visible = {
-				85 = {
-					is_controlled_by = ROOT
-				}
-				64 = {
-					is_controlled_by = ROOT
-				}
-			}
-			btn_change_to_mutsuki_visible = {
-				8 = {
-					is_controlled_by = ROOT
-				}
-			}
-			btn_change_to_aru_visible = {
-				8 = {
-					is_controlled_by = ROOT
-				}
-			}
-			btn_change_to_hina_visible = {
-				52 = {
-					is_controlled_by = ROOT
-				}
-			}
-			btn_change_to_hoshino_visible = {
-				985 = {
-					is_controlled_by = ROOT
-				}
-			}
-			btn_change_to_iroha_visible = {
-				55 = {
-					is_controlled_by = ROOT
-				}
-			}
-			btn_change_to_izuna_visible = {
-				9 = {
-					is_controlled_by = ROOT
-				}
-			}
-			btn_change_to_kanna_visible = {
-				34 = {
-					is_controlled_by = ROOT
-				}
-			}
-			btn_change_to_kisaki_visible = {
-				4 = {
-					is_controlled_by = ROOT
-				}
-			}
-			btn_change_to_marina_visible = {
-				141 = {
-					is_controlled_by = ROOT
-				}
-			}
-			btn_change_to_mika_visible = {
-				64 = {
-					is_controlled_by = ROOT
-				}
-			}
-			btn_change_to_mika_visible = {
-				64 = {
-					is_controlled_by = ROOT
-				}
-			}
-			btn_change_to_miyako_visible = {
-				14 = {
-					is_controlled_by = ROOT
-				}
-			}
-			btn_change_to_rin_visible = {
-				35 = {
-					is_controlled_by = ROOT
-				}
-			}
-			btn_change_to_yuuka_visible = {
-				16 = {
-					is_controlled_by = ROOT
-				}
-			}
+        
+        triggers = {
+            "student_button_[?i]_visible" = {
+                OR = {
+                    AND = {
+                        check_variable = { v = 1 }
+                        8 = { is_controlled_by = ROOT }
+                    }
+                    AND = {
+                        check_variable = { v = 2 }
+                        85 = { is_controlled_by = ROOT }
+                        64 = { is_controlled_by = ROOT }
+                    }
+                    AND = {
+                        check_variable = { v = 3 }
+                        8 = { is_controlled_by = ROOT }
+                    }
+                    AND = {
+                        check_variable = { v = 4 }
+                        52 = { is_controlled_by = ROOT }
+                    }
+                    AND = {
+                        check_variable = { v = 5 }
+                        985 = { is_controlled_by = ROOT }
+                    }
+                    AND = {
+                        check_variable = { v = 6 }
+                        55 = { is_controlled_by = ROOT }
+                    }
+                    AND = {
+                        check_variable = { v = 7 }
+                        9 = { is_controlled_by = ROOT }
+                    }
+                    AND = {
+                        check_variable = { v = 8 }
+                        34 = { is_controlled_by = ROOT }
+                    }
+                    AND = {
+                        check_variable = { v = 9 }
+                        4 = { is_controlled_by = ROOT }
+                    }
+                    AND = {
+                        check_variable = { v = 10 }
+                        141 = { is_controlled_by = ROOT }
+                    }
+                    AND = {
+                        check_variable = { v = 11 }
+                        64 = { is_controlled_by = ROOT }
+                    }
+                    AND = {
+                        check_variable = { v = 12 }
+                        14 = { is_controlled_by = ROOT }
+                    }
+                    AND = {
+                        check_variable = { v = 13 }
+                        35 = { is_controlled_by = ROOT }
+                    }
+                    AND = {
+                        check_variable = { v = 14 }
+                        16 = { is_controlled_by = ROOT }
+                    }
+					AND = {
+                        check_variable = { v = 15 }
+                        16 = { is_controlled_by = ROOT }
+                    }
+                    AND = {
+                        check_variable = { v = 16 }
+                        16 = { is_controlled_by = ROOT }
+                    }
+                    AND = {
+                        check_variable = { v = 17 }
+                        16 = { is_controlled_by = ROOT }
+                    }
+                    AND = {
+                        check_variable = { v = 18 }
+                        16 = { is_controlled_by = ROOT }
+                    }
+                    AND = {
+                        check_variable = { v = 19 }
+                        16 = { is_controlled_by = ROOT }
+                    }
+                    AND = {
+                        check_variable = { v = 20 }
+                        985 = { is_controlled_by = ROOT }
+                    }
+                }
+            }
 		}
 
-	}
+        effects = {
+            "student_button_[?i]_click" = {
+                set_variable = {
+                    BA_miyunshi_selected_character = v
+                }
+            }
+        }
+    }
 }

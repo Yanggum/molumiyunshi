@@ -65,3 +65,126 @@
   BA_miyunshi_generic_zondae_event.10.t: "문화 축제의 밤"
   BA_miyunshi_generic_zondae_event.10.d: "[ROOT.GetName]의 연례 문화 축제가 열리는 날이었다. [ROOT.GetLeader]는 축제장을 둘러보던 중 [ROOT.GetMiyunshiArchiveCharacterName]를 발견했다. [ROOT.GetMiyunshiArchiveCharacterName]는 전통 의상을 입고 있었다.\n\n"[ROOT.GetMiyunshiArchiveCharacterName], 네 모습이 아주 멋져 보이는구나. 축제는 즐겁니?"\n\n[ROOT.GetMiyunshiArchiveCharacterName]의 얼굴이 밝아졌다.\n\n"아, 선생님! 네, 정말 즐거워요. [ROOT.GetName]의 다양한 문화를 한자리에서 볼 수 있어 너무 좋아요."\n\n[ROOT.GetLeader]는 미소를 지으며 [ROOT.GetMiyunshiArchiveCharacterName]에게 제안했다.\n\n"함께 축제를 둘러볼까? 네가 가장 좋아하는 부분을 보여줘."\n\n둘은 함께 축제장을 돌아다니며 다양한 문화 체험을 했다. 전통 음식을 맛보고, 민속 공연을 관람하고, 전통 놀이도 체험했다.\n\n"선생님, 이렇게 우리나라의 문화를 즐기니 [ROOT.GetName]에 대한 자부심이 더 커지는 것 같아요."\n\n[ROOT.GetLeader]는 고개를 끄덕였다.\n\n"그래, 우리의 문화는 우리의 정체성이자 힘이야. 이런 축제를 통해 우리는 하나가 되고, 더 강해질 수 있지."\n\n밤이 깊어갈수록 축제의 분위기는 고조되었다. 불꽃놀이가 시작되자 [ROOT.GetMiyunshiArchiveCharacterName]는 감탄의 목소리를 냈다.\n\n"와, 정말 아름다워요! 선생님, 이 순간을 함께 볼 수 있어 정말 행복해요."\n\n[ROOT.GetLeader]는 [ROOT.GetMiyunshiArchiveCharacterName]의 손을 살짝 잡았다.\n\n"나도 그래. 이런 순간들이 우리를 더 가깝게 만들어주는 것 같아."\n\n불꽃놀이를 바라보며, 둘은 [ROOT.GetName]의 밝은 미래와 그들의 관계에 대해 조용히 생각했다. 이 축제의 밤은 두 사람의 마음을 더욱 가깝게 만들어주었다."
   BA_miyunshi_generic_zondae_event.10.a: "잊지 못할 추억이 될 거야"
+
+  # 친밀도 20이상일 때
+
+  BA_miyunshi_generic_banmal_event.11.t: "우연한 손 닿음"
+  BA_miyunshi_generic_banmal_event.11.d: "[ROOT.GetLeader]와 [ROOT.GetMiyunshiArchiveCharacterName]는 [ROOT.GetName]의 공원 벤치에 나란히 앉아 있었다. 둘 다 무언가 말하려다 우연히 손이 닿았다.\n\n"아, 미안해 선생님."\n\n[ROOT.GetMiyunshiArchiveCharacterName]의 볼이 붉어졌다.\n\n"괜찮아. 네 손이 차갑구나. 좀 추운가 보네."\n\n[ROOT.GetLeader]는 살짝 망설이다가 [ROOT.GetMiyunshiArchiveCharacterName]의 손을 잡았다.\n\n"이렇게 하면 좀 따뜻해질 거야."\n\n둘은 서로의 눈을 마주치며 미소 지었다. 말로 표현하지 않았지만, 그 순간 둘 사이에 무언가가 변화하고 있음을 느꼈다."
+  BA_miyunshi_generic_banmal_event.11.a: "따뜻한 손길"
+
+  BA_miyunshi_generic_banmal_event.12.t: "비 오는 날의 우산"
+  BA_miyunshi_generic_banmal_event.12.d: "갑자기 쏟아지는 비에 [ROOT.GetMiyunshiArchiveCharacterName]는 당황했다. 그때 [ROOT.GetLeader]가 우산을 들고 다가왔다.\n\n"함께 가자. 우산 하나면 충분해."\n\n좁은 우산 아래에서 둘은 어깨를 맞대고 걸었다. [ROOT.GetMiyunshiArchiveCharacterName]의 심장이 빠르게 뛰기 시작했다.\n\n"선생님... 고마워. 이렇게 가까이 있으니 마음이 따뜻해져."\n\n[ROOT.GetLeader]는 부드럽게 미소 지었다.\n\n"나도 그래. 이런 순간이 소중하게 느껴지네."\n\n비 오는 거리를 함께 걸으며, 둘은 말로 표현하지 못한 감정을 느꼈다."
+  BA_miyunshi_generic_banmal_event.12.a: "비 오는 날의 로맨스"
+
+  BA_miyunshi_generic_banmal_event.13.t: "별빛 아래의 속삭임"
+  BA_miyunshi_generic_banmal_event.13.d: "[ROOT.GetName]의 밤하늘은 별들로 가득했다. [ROOT.GetLeader]와 [ROOT.GetMiyunshiArchiveCharacterName]는 옥상에서 별을 보고 있었다.\n\n"선생님, 저 별자리 보여? 내 꿈을 닮았어."\n\n[ROOT.GetLeader]는 [ROOT.GetMiyunshiArchiveCharacterName]의 손을 잡고 별자리를 가리켰다.\n\n"네 꿈처럼 밝고 아름답구나. 네 꿈이 무엇인지 말해줄 수 있어?"\n\n[ROOT.GetMiyunshiArchiveCharacterName]는 살짝 긴장한 듯 대답했다.\n\n"그건... 선생님과 함께..."\n\n말을 멈춘 [ROOT.GetMiyunshiArchiveCharacterName]의 얼굴이 붉어졌다. [ROOT.GetLeader]는 그 의미를 이해하고 따뜻하게 미소 지었다."
+  BA_miyunshi_generic_banmal_event.13.a: "별빛 아래의 로맨스"
+
+  BA_miyunshi_generic_banmal_event.14.t: "서로의 온기"
+  BA_miyunshi_generic_banmal_event.14.d: "추운 겨울날, [ROOT.GetLeader]와 [ROOT.GetMiyunshiArchiveCharacterName]는 난로 앞에 앉아 있었다.\n\n"선생님, 밖은 춥지만 여기는 따뜻해."\n\n[ROOT.GetMiyunshiArchiveCharacterName]가 말했다. [ROOT.GetLeader]는 담요를 가져와 둘을 덮어주었다.\n\n"이렇게 하면 더 따뜻할 거야."\n\n담요 아래에서 둘의 어깨가 닿았다. [ROOT.GetMiyunshiArchiveCharacterName]는 살짝 긴장했지만, 곧 편안해졌다.\n\n"선생님... 이렇게 있으니 마음도 따뜻해져."\n\n[ROOT.GetLeader]는 부드럽게 미소 지으며 고개를 끄덕였다. 둘은 말없이 서로의 온기를 느끼며 시간을 보냈다."
+  BA_miyunshi_generic_banmal_event.14.a: "따뜻한 겨울밤"
+
+  BA_miyunshi_generic_banmal_event.15.t: "눈빛의 교감"
+  BA_miyunshi_generic_banmal_event.15.d: "[ROOT.GetName]의 도서관에서 [ROOT.GetLeader]와 [ROOT.GetMiyunshiArchiveCharacterName]는 함께 공부하고 있었다. 문득 둘의 시선이 마주쳤다.\n\n"아, 미안해. 나도 모르게..."\n\n[ROOT.GetMiyunshiArchiveCharacterName]가 말했지만, 시선을 떼지 않았다. [ROOT.GetLeader]도 마찬가지였다.\n\n"괜찮아. 나도 네 눈을 보고 있었어."\n\n잠시 침묵이 흘렀다. 둘은 말없이 서로의 눈을 바라보며 무언가를 느꼈다. 그 순간, 둘 사이의 관계가 조금 더 깊어진 것 같았다."
+  BA_miyunshi_generic_banmal_event.15.a: "눈빛만으로 충분해"
+
+  BA_miyunshi_generic_banmal_event.16.t: "꽃잎의 춤"
+  BA_miyunshi_generic_banmal_event.16.d: "봄날, [ROOT.GetLeader]와 [ROOT.GetMiyunshiArchiveCharacterName]는 [ROOT.GetName]의 벚꽃 축제에 참석했다. 꽃잎이 바람에 흩날렸다.\n\n"와, 정말 아름다워!"\n\n[ROOT.GetMiyunshiArchiveCharacterName]가 감탄했다. 그때 한 꽃잎이 [ROOT.GetMiyunshiArchiveCharacterName]의 머리에 내려앉았다.\n\n"잠깐만, 꽃잎이..."\n\n[ROOT.GetLeader]가 조심스럽게 꽃잎을 떼어주려 했다. 그 순간 둘의 얼굴이 가까워졌다. 잠시 시간이 멈춘 듯했다.\n\n"고, 고마워 선생님..."\n\n[ROOT.GetMiyunshiArchiveCharacterName]의 볼이 붉어졌다. [ROOT.GetLeader]도 살짝 당황한 듯했지만, 따뜻한 미소를 지었다."
+  BA_miyunshi_generic_banmal_event.16.a: "봄의 설렘"
+
+  BA_miyunshi_generic_banmal_event.17.t: "달콤한 순간"
+  BA_miyunshi_generic_banmal_event.17.d: "[ROOT.GetLeader]와 [ROOT.GetMiyunshiArchiveCharacterName]는 [ROOT.GetName]의 유명한 카페에서 티타임을 가졌다.\n\n"선생님, 이 케이크 정말 맛있어. 한 번 먹어봐."\n\n[ROOT.GetMiyunshiArchiveCharacterName]가 자신의 포크로 케이크를 건넸다. [ROOT.GetLeader]는 잠시 망설이다 그 포크로 케이크를 먹었다.\n\n"음, 정말 맛있구나."\n\n둘은 서로를 바라보며 미소 지었다. 그때 [ROOT.GetMiyunshiArchiveCharacterName]의 입가에 크림이 묻은 것을 발견한 [ROOT.GetLeader]가 손을 뻗어 닦아주려 했다.\n\n"아, 내가..."\n\n[ROOT.GetMiyunshiArchiveCharacterName]의 얼굴이 붉어졌고, [ROOT.GetLeader]도 살짝 당황했다. 하지만 둘 다 그 순간이 달콤하게 느껴졌다."
+  BA_miyunshi_generic_banmal_event.17.a: "달콤한 티타임"
+
+  BA_miyunshi_generic_banmal_event.18.t: "춤추는 마음"
+  BA_miyunshi_generic_banmal_event.18.d: "[ROOT.GetName]의 축제에서 무도회가 열렸다. [ROOT.GetLeader]와 [ROOT.GetMiyunshiArchiveCharacterName]는 서로를 바라보며 망설이고 있었다.\n\n"저기, [ROOT.GetMiyunshiArchiveCharacterName]... 혹시 나와 춤을 춰볼래?"\n\n[ROOT.GetLeader]가 조심스럽게 물었다. [ROOT.GetMiyunshiArchiveCharacterName]의 눈이 반짝였다.\n\n"응! 기쁘게!"\n\n둘은 춤을 추기 시작했다. 처음엔 어색했지만, 점점 리듬에 맞춰 자연스럽게 움직였다. 서로의 눈을 바라보며 춤을 추는 동안, 둘 사이에 특별한 감정이 흐르는 것을 느꼈다.\n\n"선생님, 정말 행복해."\n\n[ROOT.GetMiyunshiArchiveCharacterName]가 속삭였다. [ROOT.GetLeader]는 따뜻하게 미소 지으며 고개를 끄덕였다."
+  BA_miyunshi_generic_banmal_event.18.a: "춤추는 마음"
+
+  BA_miyunshi_generic_banmal_event.19.t: "해변의 추억"
+  BA_miyunshi_generic_banmal_event.19.d: "[ROOT.GetName]의 아름다운 해변에서 [ROOT.GetLeader]와 [ROOT.GetMiyunshiArchiveCharacterName]는 산책을 하고 있었다.\n\n"선생님, 저기 석양이 정말 아름답네."\n\n[ROOT.GetMiyunshiArchiveCharacterName]가 감탄했다. [ROOT.GetLeader]는 고개를 끄덕이며 미소 지었다.\n\n"그래, 정말 아름답구나. 하지만 네가 더 아름다워."\n\n말을 뱉은 후 [ROOT.GetLeader]는 자신의 말에 놀란 듯했다. [ROOT.GetMiyunshiArchiveCharacterName]의 얼굴이 붉어졌다.\n\n"선, 선생님..."\n\n둘은 잠시 말없이 서로를 바라보았다. 그때 파도가 둘의 발을 적셨고, 둘은 깜짝 놀라 웃음을 터뜨렸다. 그 순간, 둘 사이의 감정이 더욱 깊어짐을 느꼈다."
+  BA_miyunshi_generic_banmal_event.19.a: "잊지 못할 해변의 추억"
+
+  BA_miyunshi_generic_banmal_event.20.t: "작은 선물의 의미"
+  BA_miyunshi_generic_banmal_event.20.d: "[ROOT.GetLeader]의 생일이었다. [ROOT.GetMiyunshiArchiveCharacterName]는 조심스럽게 선물을 건넸다.\n\n"선생님, 생일 축하해요. 이건 내가 직접 만든 거야."\n\n[ROOT.GetLeader]는 선물을 열어보았다. 그것은 [ROOT.GetMiyunshiArchiveCharacterName]가 직접 뜬 목도리였다.\n\n"와, 정말 아름답구나. 고마워 [ROOT.GetMiyunshiArchiveCharacterName]."\n\n[ROOT.GetLeader]는 즉시 목도리를 둘렀다. [ROOT.GetMiyunshiArchiveCharacterName]의 얼굴이 밝아졌다.\n\n"잘 어울려, 선생님. 내가 만드는 동안 계속 선생님을 생각했어."\n\n[ROOT.GetMiyunshiArchiveCharacterName]의 말에 [ROOT.GetLeader]의 마음이 따뜻해졌다.\n\n"네 마음이 전해져. 이 목도리를 볼 때마다 너를 생각하게 될 것 같아."\n\n둘은 서로를 바라보며 미소 지었다. 그 순간, 단순한 선물 이상의 무언가가 그들 사이에 오갔음을 느꼈다."
+  BA_miyunshi_generic_banmal_event.20.a: "소중한 선물, 소중한 마음"
+
+  BA_miyunshi_generic_banmal_event.21.t: "밤하늘의 약속"
+  BA_miyunshi_generic_banmal_event.21.d: "[ROOT.GetName]의 천문대에서 [ROOT.GetLeader]와 [ROOT.GetMiyunshiArchiveCharacterName]는 별을 관측하고 있었다.\n\n"선생님, 저 유성 봤어? 정말 아름다워."\n\n[ROOT.GetMiyunshiArchiveCharacterName]가 감탄했다. [ROOT.GetLeader]는 고개를 끄덕였다.\n\n"그래, 정말 아름답구나. 소원을 빌어볼까?"\n\n둘은 눈을 감고 소원을 빌었다. 잠시 후, [ROOT.GetMiyunshiArchiveCharacterName]가 조심스럽게 물었다.\n\n"선생님, 무슨 소원 빌었어?"\n\n[ROOT.GetLeader]는 미소를 지으며 대답했다.\n\n"비밀이야. 하지만 네가 그 소원의 일부라고 말할 수 있어."\n\n[ROOT.GetMiyunshiArchiveCharacterName]의 얼굴이 붉어졌다. 둘은 말없이 서로를 바라보며, 그 순간 무언의 약속을 나누는 듯했다."
+  BA_miyunshi_generic_banmal_event.21.a: "별빛 아래의 약속"
+
+  BA_miyunshi_generic_banmal_event.22.t: "비 오는 날의 피아노 선율"
+  BA_miyunshi_generic_banmal_event.22.d: "비 오는 날, [ROOT.GetLeader]는 [ROOT.GetName]의 음악실에서 [ROOT.GetMiyunshiArchiveCharacterName]의 피아노 연주를 듣고 있었다.\n\n"정말 아름다운 연주구나, [ROOT.GetMiyunshiArchiveCharacterName]."\n\n[ROOT.GetMiyunshiArchiveCharacterName]는 미소 지으며 대답했다.\n\n"고마워, 선생님. 이 곡은 선생님을 생각하며 연습했어."\n\n[ROOT.GetLeader]는 놀란 듯 했지만, 곧 따뜻한 미소를 지었다.\n\n"그렇구나. 네 마음이 곡에 담겨 있어 더욱 특별하게 들리는 것 같아."\n\n[ROOT.GetMiyunshiArchiveCharacterName]는 살짝 긴장한 듯 했지만, 계속해서 연주했다. 빗소리와 어우러진 피아노 선율 속에서, 둘의 마음이 조금씩 가까워지고 있었다."
+  BA_miyunshi_generic_banmal_event.22.a: "음악으로 전하는 마음"
+
+  BA_miyunshi_generic_banmal_event.23.t: "꿈속의 만남"
+  BA_miyunshi_generic_banmal_event.23.d: "[ROOT.GetLeader]는 꿈에서 [ROOT.GetMiyunshiArchiveCharacterName]를 만났다. 꿈속에서 둘은 [ROOT.GetName]의 아름다운 정원을 거닐고 있었다.\n\n"선생님, 이건 꿈인가요?"\n\n[ROOT.GetMiyunshiArchiveCharacterName]가 물었다. [ROOT.GetLeader]는 고개를 끄덕였다.\n\n"그런 것 같아. 하지만 꿈이라고 해서 덜 특별한 건 아니지."\n\n둘은 서로를 바라보며 미소 지었다. 꿈속이라 현실에서는 하지 못할 말들을 나누었다.\n\n"선생님, 난 항상..."\n\n그때 [ROOT.GetLeader]는 잠에서 깨어났다. 하지만 가슴 속에 [ROOT.GetMiyunshiArchiveCharacterName]에 대한 따뜻한 감정이 남아있었다."
+  BA_miyunshi_generic_banmal_event.23.a: "꿈에서 깨어나도 남은 감정"
+
+  BA_miyunshi_generic_banmal_event.24.t: "함께 요리하는 저녁"
+  BA_miyunshi_generic_banmal_event.24.d: "[ROOT.GetLeader]와 [ROOT.GetMiyunshiArchiveCharacterName]는 [ROOT.GetName]의 요리 교실에서 함께 저녁 식사를 준비하고 있었다.\n\n"선생님, 이렇게 하면 돼?"\n\n[ROOT.GetMiyunshiArchiveCharacterName]가 물었다. [ROOT.GetLeader]는 옆으로 다가가 부드럽게 조언했다.\n\n"그래, 잘하고 있어. 다만 이렇게 하면 더 좋을 것 같아."\n\n[ROOT.GetLeader]가 [ROOT.GetMiyunshiArchiveCharacterName]의 손을 잡고 요리하는 법을 가르쳤다. 둘의 손이 맞닿자 둘 다 살짝 긴장했지만, 곧 편안해졌다.\n\n"선생님과 함께 요리하니 더 맛있어질 것 같아."\n\n[ROOT.GetMiyunshiArchiveCharacterName]가 말했다. [ROOT.GetLeader]는 미소 지으며 고개를 끄덕였다. 함께 만든 저녁 식사는 특별한 의미를 가지게 되었다."
+  BA_miyunshi_generic_banmal_event.24.a: "함께 만든 특별한 저녁"
+
+  BA_miyunshi_generic_banmal_event.25.t: "책 속의 두근거림"
+  BA_miyunshi_generic_banmal_event.25.d: "[ROOT.GetName]의 도서관에서 [ROOT.GetLeader]와 [ROOT.GetMiyunshiArchiveCharacterName]는 나란히 앉아 책을 읽고 있었다.\n\n"선생님, 이 부분 정말 아름다워. 한번 읽어볼래?"\n\n[ROOT.GetMiyunshiArchiveCharacterName]가 책을 건넸다. [ROOT.GetLeader]가 책을 받아들 때, 우연히 손이 스쳤다. 둘은 잠시 눈을 마주쳤다.\n\n"아, 응... 읽어볼게."\n\n[ROOT.GetLeader]가 책을 읽기 시작했다. 로맨스 소설의 한 구절이었다. 읽으면서 [ROOT.GetLeader]의 목소리가 살짝 떨렸고, [ROOT.GetMiyunshiArchiveCharacterName]의 얼굴은 붉어졌다.\n\n"정말... 아름다운 글이구나."\n\n둘은 서로를 바라보며, 책 속 주인공들의 감정이 마치 자신들의 것처럼 느껴졌다."
+  BA_miyunshi_generic_banmal_event.25.a: "책 속에 담긴 우리의 마음"
+
+  # 존댓말 (일반)
+  BA_miyunshi_generic_zondae_event.11.t: "우연한 손 닿음"
+  BA_miyunshi_generic_zondae_event.11.d: "[ROOT.GetLeader]와 [ROOT.GetMiyunshiArchiveCharacterName]는 [ROOT.GetName]의 공원 벤치에 나란히 앉아 있었다. 둘 다 무언가 말하려다 우연히 손이 닿았다.\n\n"아, 미안해요 선생님."\n\n[ROOT.GetMiyunshiArchiveCharacterName]의 볼이 붉어졌다.\n\n"괜찮아. 네 손이 차갑구나. 좀 추운가 보네."\n\n[ROOT.GetLeader]는 살짝 망설이다가 [ROOT.GetMiyunshiArchiveCharacterName]의 손을 잡았다.\n\n"이렇게 하면 좀 따뜻해질 거야."\n\n둘은 서로의 눈을 마주치며 미소 지었다. 말로 표현하지 않았지만, 그 순간 둘 사이에 무언가가 변화하고 있음을 느꼈다."
+  BA_miyunshi_generic_zondae_event.11.a: "따뜻한 손길"
+
+  BA_miyunshi_generic_zondae_event.12.t: "비 오는 날의 우산"
+  BA_miyunshi_generic_zondae_event.12.d: "갑자기 쏟아지는 비에 [ROOT.GetMiyunshiArchiveCharacterName]는 당황했다. 그때 [ROOT.GetLeader]가 우산을 들고 다가왔다.\n\n"함께 가자. 우산 하나면 충분해."\n\n좁은 우산 아래에서 둘은 어깨를 맞대고 걸었다. [ROOT.GetMiyunshiArchiveCharacterName]의 심장이 빠르게 뛰기 시작했다.\n\n"선생님... 감사해요. 이렇게 가까이 있으니 마음이 따뜻해져요."\n\n[ROOT.GetLeader]는 부드럽게 미소 지었다.\n\n"나도 그래. 이런 순간이 소중하게 느껴지네."\n\n비 오는 거리를 함께 걸으며, 둘은 말로 표현하지 못한 감정을 느꼈다."
+  BA_miyunshi_generic_zondae_event.12.a: "비 오는 날의 로맨스"
+
+  BA_miyunshi_generic_zondae_event.13.t: "별빛 아래의 속삭임"
+  BA_miyunshi_generic_zondae_event.13.d: "[ROOT.GetName]의 밤하늘은 별들로 가득했다. [ROOT.GetLeader]와 [ROOT.GetMiyunshiArchiveCharacterName]는 옥상에서 별을 보고 있었다.\n\n"선생님, 저 별자리 보이세요? 제 꿈을 닮았어요."\n\n[ROOT.GetLeader]는 [ROOT.GetMiyunshiArchiveCharacterName]의 손을 잡고 별자리를 가리켰다.\n\n"네 꿈처럼 밝고 아름답구나. 네 꿈이 무엇인지 말해줄 수 있어?"\n\n[ROOT.GetMiyunshiArchiveCharacterName]는 살짝 긴장한 듯 대답했다.\n\n"그건... 선생님과 함께..."\n\n말을 멈춘 [ROOT.GetMiyunshiArchiveCharacterName]의 얼굴이 붉어졌다. [ROOT.GetLeader]는 그 의미를 이해하고 따뜻하게 미소 지었다."
+  BA_miyunshi_generic_zondae_event.13.a: "별빛 아래의 로맨스"
+
+  BA_miyunshi_generic_zondae_event.14.t: "서로의 온기"
+  BA_miyunshi_generic_zondae_event.14.d: "추운 겨울날, [ROOT.GetLeader]와 [ROOT.GetMiyunshiArchiveCharacterName]는 난로 앞에 앉아 있었다.\n\n"선생님, 밖은 춥지만 여기는 따뜻해요."\n\n[ROOT.GetMiyunshiArchiveCharacterName]가 말했다. [ROOT.GetLeader]는 담요를 가져와 둘을 덮어주었다.\n\n"이렇게 하면 더 따뜻할 거야."\n\n담요 아래에서 둘의 어깨가 닿았다. [ROOT.GetMiyunshiArchiveCharacterName]는 살짝 긴장했지만, 곧 편안해졌다.\n\n"선생님... 이렇게 있으니 마음도 따뜻해져요."\n\n[ROOT.GetLeader]는 부드럽게 미소 지으며 고개를 끄덕였다. 둘은 말없이 서로의 온기를 느끼며 시간을 보냈다."
+  BA_miyunshi_generic_zondae_event.14.a: "따뜻한 겨울밤"
+
+  BA_miyunshi_generic_zondae_event.15.t: "눈빛의 교감"
+  BA_miyunshi_generic_zondae_event.15.d: "[ROOT.GetName]의 도서관에서 [ROOT.GetLeader]와 [ROOT.GetMiyunshiArchiveCharacterName]는 함께 공부하고 있었다. 문득 둘의 시선이 마주쳤다.\n\n"아, 미안해요. 저도 모르게..."\n\n[ROOT.GetMiyunshiArchiveCharacterName]가 말했지만, 시선을 떼지 않았다. [ROOT.GetLeader]도 마찬가지였다.\n\n"괜찮아. 나도 네 눈을 보고 있었어."\n\n잠시 침묵이 흘렀다. 둘은 말없이 서로의 눈을 바라보며 무언가를 느꼈다. 그 순간, 둘 사이의 관계가 조금 더 깊어진 것 같았다."
+  BA_miyunshi_generic_zondae_event.15.a: "눈빛만으로 충분해"
+
+  BA_miyunshi_generic_zondae_event.16.t: "꽃잎의 춤"
+  BA_miyunshi_generic_zondae_event.16.d: "봄날, [ROOT.GetLeader]와 [ROOT.GetMiyunshiArchiveCharacterName]는 [ROOT.GetName]의 벚꽃 축제에 참석했다. 꽃잎이 바람에 흩날렸다.\n\n"와, 정말 아름다워요!"\n\n[ROOT.GetMiyunshiArchiveCharacterName]가 감탄했다. 그때 한 꽃잎이 [ROOT.GetMiyunshiArchiveCharacterName]의 머리에 내려앉았다.\n\n"잠깐만, 꽃잎이..."\n\n[ROOT.GetLeader]가 조심스럽게 꽃잎을 떼어주려 했다. 그 순간 둘의 얼굴이 가까워졌다. 잠시 시간이 멈춘 듯했다.\n\n"고, 고마워요 선생님..."\n\n[ROOT.GetMiyunshiArchiveCharacterName]의 볼이 붉어졌다. [ROOT.GetLeader]도 살짝 당황한 듯했지만, 따뜻한 미소를 지었다."
+  BA_miyunshi_generic_zondae_event.16.a: "봄의 설렘"
+
+  BA_miyunshi_generic_zondae_event.17.t: "달콤한 순간"
+  BA_miyunshi_generic_zondae_event.17.d: "[ROOT.GetLeader]와 [ROOT.GetMiyunshiArchiveCharacterName]는 [ROOT.GetName]의 유명한 카페에서 티타임을 가졌다.\n\n"선생님, 이 케이크 정말 맛있어요. 한 번 드셔보세요."\n\n[ROOT.GetMiyunshiArchiveCharacterName]가 자신의 포크로 케이크를 건넸다. [ROOT.GetLeader]는 잠시 망설이다 그 포크로 케이크를 먹었다.\n\n"음, 정말 맛있구나."\n\n둘은 서로를 바라보며 미소 지었다. 그때 [ROOT.GetMiyunshiArchiveCharacterName]의 입가에 크림이 묻은 것을 발견한 [ROOT.GetLeader]가 손을 뻗어 닦아주려 했다.\n\n"아, 제가..."\n\n[ROOT.GetMiyunshiArchiveCharacterName]의 얼굴이 붉어졌고, [ROOT.GetLeader]도 살짝 당황했다. 하지만 둘 다 그 순간이 달콤하게 느껴졌다."
+  BA_miyunshi_generic_zondae_event.17.a: "달콤한 티타임"
+
+  BA_miyunshi_generic_zondae_event.18.t: "춤추는 마음"
+  BA_miyunshi_generic_zondae_event.18.d: "[ROOT.GetName]의 축제에서 무도회가 열렸다. [ROOT.GetLeader]와 [ROOT.GetMiyunshiArchiveCharacterName]는 서로를 바라보며 망설이고 있었다.\n\n"저기, [ROOT.GetMiyunshiArchiveCharacterName]... 혹시 나와 춤을 춰볼래?"\n\n[ROOT.GetLeader]가 조심스럽게 물었다. [ROOT.GetMiyunshiArchiveCharacterName]의 눈이 반짝였다.\n\n"네! 기쁘게요, 선생님."\n\n둘은 춤을 추기 시작했다. 처음엔 어색했지만, 점점 리듬에 맞춰 자연스럽게 움직였다. 서로의 눈을 바라보며 춤을 추는 동안, 둘 사이에 특별한 감정이 흐르는 것을 느꼈다.\n\n"선생님, 정말 행복해요."\n\n[ROOT.GetMiyunshiArchiveCharacterName]가 속삭였다. [ROOT.GetLeader]는 따뜻하게 미소 지으며 고개를 끄덕였다."
+  BA_miyunshi_generic_zondae_event.18.a: "춤추는 마음"
+
+  BA_miyunshi_generic_zondae_event.19.t: "해변의 추억"
+  BA_miyunshi_generic_zondae_event.19.d: "[ROOT.GetName]의 아름다운 해변에서 [ROOT.GetLeader]와 [ROOT.GetMiyunshiArchiveCharacterName]는 산책을 하고 있었다.\n\n"선생님, 저기 석양이 정말 아름답네요."\n\n[ROOT.GetMiyunshiArchiveCharacterName]가 감탄했다. [ROOT.GetLeader]는 고개를 끄덕이며 미소 지었다.\n\n"그래, 정말 아름답구나. 하지만 네가 더 아름다워."\n\n말을 뱉은 후 [ROOT.GetLeader]는 자신의 말에 놀란 듯했다. [ROOT.GetMiyunshiArchiveCharacterName]의 얼굴이 붉어졌다.\n\n"선, 선생님..."\n\n둘은 잠시 말없이 서로를 바라보았다. 그때 파도가 둘의 발을 적셨고, 둘은 깜짝 놀라 웃음을 터뜨렸다. 그 순간, 둘 사이의 감정이 더욱 깊어짐을 느꼈다."
+  BA_miyunshi_generic_zondae_event.19.a: "잊지 못할 해변의 추억"
+
+  BA_miyunshi_generic_zondae_event.20.t: "작은 선물의 의미"
+  BA_miyunshi_generic_zondae_event.20.d: "[ROOT.GetLeader]의 생일이었다. [ROOT.GetMiyunshiArchiveCharacterName]는 조심스럽게 선물을 건넸다.\n\n"선생님, 생일 축하드려요. 이건 제가 직접 만든 거예요."\n\n[ROOT.GetLeader]는 선물을 열어보았다. 그것은 [ROOT.GetMiyunshiArchiveCharacterName]가 직접 뜬 목도리였다.\n\n"와, 정말 아름답구나. 고마워 [ROOT.GetMiyunshiArchiveCharacterName]."\n\n[ROOT.GetLeader]는 즉시 목도리를 둘렀다. [ROOT.GetMiyunshiArchiveCharacterName]의 얼굴이 밝아졌다.\n\n"잘 어울리세요, 선생님. 제가 만드는 동안 계속 선생님을 생각했어요."\n\n[ROOT.GetMiyunshiArchiveCharacterName]의 말에 [ROOT.GetLeader]의 마음이 따뜻해졌다.\n\n"네 마음이 전해져. 이 목도리를 볼 때마다 너를 생각하게 될 것 같아."\n\n둘은 서로를 바라보며 미소 지었다. 그 순간, 단순한 선물 이상의 무언가가 그들 사이에 오갔음을 느꼈다."
+  BA_miyunshi_generic_zondae_event.20.a: "소중한 선물, 소중한 마음"
+
+  BA_miyunshi_generic_zondae_event.21.t: "밤하늘의 약속"
+  BA_miyunshi_generic_zondae_event.21.d: "[ROOT.GetName]의 천문대에서 [ROOT.GetLeader]와 [ROOT.GetMiyunshiArchiveCharacterName]는 별을 관측하고 있었다.\n\n"선생님, 저 유성 보셨어요? 정말 아름답네요."\n\n[ROOT.GetMiyunshiArchiveCharacterName]가 감탄했다. [ROOT.GetLeader]는 고개를 끄덕였다.\n\n"그래, 정말 아름답구나. 소원을 빌어볼까?"\n\n둘은 눈을 감고 소원을 빌었다. 잠시 후, [ROOT.GetMiyunshiArchiveCharacterName]가 조심스럽게 물었다.\n\n"선생님, 무슨 소원 비셨어요?"\n\n[ROOT.GetLeader]는 미소를 지으며 대답했다.\n\n"비밀이야. 하지만 네가 그 소원의 일부라고 말할 수 있어."\n\n[ROOT.GetMiyunshiArchiveCharacterName]의 얼굴이 붉어졌다. 둘은 말없이 서로를 바라보며, 그 순간 무언의 약속을 나누는 듯했다."
+  BA_miyunshi_generic_zondae_event.21.a: "별빛 아래의 약속"
+
+  BA_miyunshi_generic_zondae_event.22.t: "비 오는 날의 피아노 선율"
+  BA_miyunshi_generic_zondae_event.22.d: "비 오는 날, [ROOT.GetLeader]는 [ROOT.GetName]의 음악실에서 [ROOT.GetMiyunshiArchiveCharacterName]의 피아노 연주를 듣고 있었다.\n\n"정말 아름다운 연주구나, [ROOT.GetMiyunshiArchiveCharacterName]."\n\n[ROOT.GetMiyunshiArchiveCharacterName]는 미소 지으며 대답했다.\n\n"감사합니다, 선생님. 이 곡은 선생님을 생각하며 연습했어요."\n\n[ROOT.GetLeader]는 놀란 듯 했지만, 곧 따뜻한 미소를 지었다.\n\n"그렇구나. 네 마음이 곡에 담겨 있어 더욱 특별하게 들리는 것 같아."\n\n[ROOT.GetMiyunshiArchiveCharacterName]는 살짝 긴장한 듯 했지만, 계속해서 연주했다. 빗소리와 어우러진 피아노 선율 속에서, 둘의 마음이 조금씩 가까워지고 있었다."
+  BA_miyunshi_generic_zondae_event.22.a: "음악으로 전하는 마음"
+
+  BA_miyunshi_generic_zondae_event.23.t: "꿈속의 만남"
+  BA_miyunshi_generic_zondae_event.23.d: "[ROOT.GetLeader]는 꿈에서 [ROOT.GetMiyunshiArchiveCharacterName]를 만났다. 꿈속에서 둘은 [ROOT.GetName]의 아름다운 정원을 거닐고 있었다.\n\n"선생님, 이건 꿈인가요?"\n\n[ROOT.GetMiyunshiArchiveCharacterName]가 물었다. [ROOT.GetLeader]는 고개를 끄덕였다.\n\n"그런 것 같아. 하지만 꿈이라고 해서 덜 특별한 건 아니지."\n\n둘은 서로를 바라보며 미소 지었다. 꿈속이라 현실에서는 하지 못할 말들을 나누었다.\n\n"선생님, 저는 항상..."\n\n그때 [ROOT.GetLeader]는 잠에서 깨어났다. 하지만 가슴 속에 [ROOT.GetMiyunshiArchiveCharacterName]에 대한 따뜻한 감정이 남아있었다."
+  BA_miyunshi_generic_zondae_event.23.a: "꿈에서 깨어나도 남은 감정"
+
+  BA_miyunshi_generic_zondae_event.24.t: "함께 요리하는 저녁"
+  BA_miyunshi_generic_zondae_event.24.d: "[ROOT.GetLeader]와 [ROOT.GetMiyunshiArchiveCharacterName]는 [ROOT.GetName]의 요리 교실에서 함께 저녁 식사를 준비하고 있었다.\n\n"선생님, 이렇게 하면 될까요?"\n\n[ROOT.GetMiyunshiArchiveCharacterName]가 물었다. [ROOT.GetLeader]는 옆으로 다가가 부드럽게 조언했다.\n\n"그래, 잘하고 있어. 다만 이렇게 하면 더 좋을 것 같아."\n\n[ROOT.GetLeader]가 [ROOT.GetMiyunshiArchiveCharacterName]의 손을 잡고 요리하는 법을 가르쳤다. 둘의 손이 맞닿자 둘 다 살짝 긴장했지만, 곧 편안해졌다.\n\n"선생님과 함께 요리하니 더 맛있어질 것 같아요."\n\n[ROOT.GetMiyunshiArchiveCharacterName]가 말했다. [ROOT.GetLeader]는 미소 지으며 고개를 끄덕였다. 함께 만든 저녁 식사는 특별한 의미를 가지게 되었다."
+  BA_miyunshi_generic_zondae_event.24.a: "함께 만든 특별한 저녁"
+
+  BA_miyunshi_generic_zondae_event.25.t: "책 속의 두근거림"
+  BA_miyunshi_generic_zondae_event.25.d: "[ROOT.GetName]의 도서관에서 [ROOT.GetLeader]와 [ROOT.GetMiyunshiArchiveCharacterName]는 나란히 앉아 책을 읽고 있었다.\n\n"선생님, 이 부분 정말 아름다워요. 한번 읽어볼래요?"\n\n[ROOT.GetMiyunshiArchiveCharacterName]가 책을 건넸다. [ROOT.GetLeader]가 책을 받아들 때, 우연히 손이 스쳤다. 둘은 잠시 눈을 마주쳤다.\n\n"아, 네... 읽어볼게."\n\n[ROOT.GetLeader]가 책을 읽기 시작했다. 로맨스 소설의 한 구절이었다. 읽으면서 [ROOT.GetLeader]의 목소리가 살짝 떨렸고, [ROOT.GetMiyunshiArchiveCharacterName]의 얼굴은 붉어졌다.\n\n"정말... 아름다운 글이구나."\n\n둘은 서로를 바라보며, 책 속 주인공들의 감정이 마치 자신들의 것처럼 느껴졌다."
+  BA_miyunshi_generic_zondae_event.25.a: "책 속에 담긴 우리의 마음"

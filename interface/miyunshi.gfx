@@ -1,6 +1,6 @@
 spriteTypes = {
 	SpriteType = {
-		name = "GFX_background_miyunshi_house"
+		name = "GFX_background_house"
 		texturefile = "gfx/interface/miyunshi_house.dds"
 	}
 
@@ -75,6 +75,37 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_standing_yuuka"
 		textureFile = "gfx/interface/standing/yuuka_standing.dds"
+		legacy_lazy_load = no
+	}
+	# 새캐릭들 (2024-07-05)
+	spriteType = {
+		name = "GFX_standing_aris"
+		textureFile = "gfx/interface/standing/aris_standing.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_standing_makoto"
+		textureFile = "gfx/interface/standing/makoto_standing.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_standing_noa"
+		textureFile = "gfx/interface/standing/noa_standing.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_standing_ibuki"
+		textureFile = "gfx/interface/standing/ibuki_standing.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_standing_kirino"
+		textureFile = "gfx/interface/standing/kirino_standing.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_standing_serika"
+		textureFile = "gfx/interface/standing/serika_standing.dds"
 		legacy_lazy_load = no
 	}
 }
