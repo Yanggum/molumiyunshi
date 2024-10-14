@@ -1,223 +1,269 @@
-#   BA_miyunshi_selected_character
-#   1 = 무츠키
-#   2 = 아즈사
-#   3 = 아루
-#   4 = 히나
-#   5 = 호시노
-#   6 = 이로하
-#   7 = 이즈나
-#   8 = 칸나
-#   9 = 키사키
-#   10 = 마리나
-#   11 = 미카
-#   12 = 미야코
-#   13 = 린
-#   14 = 유우카
-#   15 = 아리스
-#   16 = 마코토
-#   17 = 노아
-#   18 = 이부키
-#   19 = 키리노
-#   20 = 세리카
+# BA_miyunshi_selected_character
+# 1 = 무츠키
+# 2 = 아즈사
+# 3 = 아루
+# 4 = 히나
+# 5 = 호시노
+# 6 = 이로하
+# 7 = 이즈나
+# 8 = 칸나
+# 9 = 키사키
+# 10 = 마리나
+# 11 = 미카
+# 12 = 미야코
+# 13 = 린
+# 14 = 유우카
+# 15 = 아리스
+# 16 = 마코토
+# 17 = 노아
+# 18 = 이부키
+# 19 = 키리노
+# 20 = 세리카
+
 is_student_affection_than_friends_less_than_lovers_trigger = {
-	if = {
-		limit = {
-			check_variable = {
-				BA_miyunshi_selected_character = 1				
-			}
-		}
-		check_variable = {				
-			BA_miyunshi_mutsuki_affection > 4
-		}
-	}
-	else_if = {
-		limit = { 
-			check_variable = {
-				BA_miyunshi_selected_character = 2
-			}
-		}
-		check_variable = {
-			BA_miyunshi_azusa_affection > 4
-		}
-	}
-	else_if = {
-		limit = {
-			check_variable = {
-				BA_miyunshi_selected_character = 3
-			}
-		}
-		check_variable = {
-			BA_miyunshi_aru_affection > 4
-		}
-	}
-	else_if = {
-		limit = {
-			check_variable = {
-				BA_miyunshi_selected_character = 4
-			}
-		}
-		check_variable = {
-			BA_miyunshi_hina_affection > 4
-		}
-	}
-	else_if = {
-		limit = {
-			check_variable = {
-				BA_miyunshi_selected_character = 5
-			}
-		}
-		check_variable = {
-			BA_miyunshi_hoshino_affection > 4
-		}
-	}
-	else_if = {
-		limit = {
-			check_variable = {
-				BA_miyunshi_selected_character = 6
-			}
-		}
-		check_variable = {
-			BA_miyunshi_iroha_affection > 4
-		}
-	}
-	else_if = {
-		limit = {
-			check_variable = {
-				BA_miyunshi_selected_character = 7
-			}
-		}
-		check_variable = {
-			BA_miyunshi_izuna_affection > 4
-		}
-	}
-	else_if = {
-		limit = {
-			check_variable = {
-				BA_miyunshi_selected_character = 8
-			}
-		}
-		check_variable = {
-			BA_miyunshi_kanna_affection > 4
-		}
-	}
-	else_if = {
-		limit = {
-			check_variable = {
-				BA_miyunshi_selected_character = 9
-			}
-		}
-		check_variable = {
-			BA_miyunshi_kisaki_affection > 4
-		}
-	}
-	else_if = {
-		limit = {
-			check_variable = {
-				BA_miyunshi_selected_character = 10
-			}
-		}
-		check_variable = {
-			BA_miyunshi_marina_affection > 4
-		}
-	}
-	else_if = {
-		limit = {
-			check_variable = {
-				BA_miyunshi_selected_character = 11
-			}
-		}
-		check_variable = {
-			BA_miyunshi_mika_affection > 4
-		}
-	}
-	else_if = {
-		limit = {
-			check_variable = {
-				BA_miyunshi_selected_character = 12
-			}
-		}
-		check_variable = {
-			BA_miyunshi_miyako_affection > 4
-		}
-	}
-	else_if = {
-		limit = {
-			check_variable = {
-				BA_miyunshi_selected_character = 13
-			}
-		}
-		check_variable = {
-			BA_miyunshi_rin_affection > 4
-		}
-	}
-	else_if = {
-		limit = {
-			check_variable = {
-				BA_miyunshi_selected_character = 14
-			}
-		}
-		check_variable = {
-			BA_miyunshi_yuuka_affection > 4
-		}
-	}
-	else_if = {
-		limit = { 
-			check_variable = {
-				BA_miyunshi_selected_character = 15
-			}
-		}
-		check_variable = {
-			BA_miyunshi_aris_affection > 4		
-		}
-	}
-	else_if = {
-		limit = { 
-			check_variable = {
-				BA_miyunshi_selected_character = 16
-			}
-		}
-		check_variable = {
-			BA_miyunshi_makoto_affection > 4		
-		}
-	}
-	else_if = {
-		limit = { 
-			check_variable = {
-				BA_miyunshi_selected_character = 17
-			}
-		}
-		check_variable = {
-			BA_miyunshi_noa_affection > 4		
-		}
-	}
-	else_if = {
-		limit = { 
-			check_variable = {
-				BA_miyunshi_selected_character = 18
-			}
-		}
-		check_variable = {
-			BA_miyunshi_ibuki_affection > 4		
-		}
-	}
-	else_if = {
-		limit = { 
-			check_variable = {
-				BA_miyunshi_selected_character = 19
-			}
-		}
-		check_variable = {
-			BA_miyunshi_kirino_affection > 4				
-		}
-	}
-	else_if = {
-		limit = { 
-			check_variable = {
-				BA_miyunshi_selected_character = 20
-			}
-		}
-		check_variable = {
-			BA_miyunshi_serika_affection > 4
-		}
-	}
+    if = {
+        limit = {
+            check_variable = {
+                var = BA_miyunshi_selected_character
+                value = 1
+            }
+        }
+        check_variable = {
+            var = BA_miyunshi_mutsuki_affection
+            value > 4
+        }
+    }
+    else_if = {
+        limit = {
+            check_variable = {
+                var = BA_miyunshi_selected_character
+                value = 2
+            }
+        }
+        check_variable = {
+            var = BA_miyunshi_azusa_affection
+            value > 4
+        }
+    }
+    else_if = {
+        limit = {
+            check_variable = {
+                var = BA_miyunshi_selected_character
+                value = 3
+            }
+        }
+        check_variable = {
+            var = BA_miyunshi_aru_affection
+            value > 4
+        }
+    }
+    else_if = {
+        limit = {
+            check_variable = {
+                var = BA_miyunshi_selected_character
+                value = 4
+            }
+        }
+        check_variable = {
+            var = BA_miyunshi_hina_affection
+            value > 4
+        }
+    }
+    else_if = {
+        limit = {
+            check_variable = {
+                var = BA_miyunshi_selected_character
+                value = 5
+            }
+        }
+        check_variable = {
+            var = BA_miyunshi_hoshino_affection
+            value > 4
+        }
+    }
+    else_if = {
+        limit = {
+            check_variable = {
+                var = BA_miyunshi_selected_character
+                value = 6
+            }
+        }
+        check_variable = {
+            var = BA_miyunshi_iroha_affection
+            value > 4
+        }
+    }
+    else_if = {
+        limit = {
+            check_variable = {
+                var = BA_miyunshi_selected_character
+                value = 7
+            }
+        }
+        check_variable = {
+            var = BA_miyunshi_izuna_affection
+            value > 4
+        }
+    }
+    else_if = {
+        limit = {
+            check_variable = {
+                var = BA_miyunshi_selected_character
+                value = 8
+            }
+        }
+        check_variable = {
+            var = BA_miyunshi_kanna_affection
+            value > 4
+        }
+    }
+    else_if = {
+        limit = {
+            check_variable = {
+                var = BA_miyunshi_selected_character
+                value = 9
+            }
+        }
+        check_variable = {
+            var = BA_miyunshi_kisaki_affection
+            value > 4
+        }
+    }
+    else_if = {
+        limit = {
+            check_variable = {
+                var = BA_miyunshi_selected_character
+                value = 10
+            }
+        }
+        check_variable = {
+            var = BA_miyunshi_marina_affection
+            value > 4
+        }
+    }
+    else_if = {
+        limit = {
+            check_variable = {
+                var = BA_miyunshi_selected_character
+                value = 11
+            }
+        }
+        check_variable = {
+            var = BA_miyunshi_mika_affection
+            value > 4
+        }
+    }
+    else_if = {
+        limit = {
+            check_variable = {
+                var = BA_miyunshi_selected_character
+                value = 12
+            }
+        }
+        check_variable = {
+            var = BA_miyunshi_miyako_affection
+            value > 4
+        }
+    }
+    else_if = {
+        limit = {
+            check_variable = {
+                var = BA_miyunshi_selected_character
+                value = 13
+            }
+        }
+        check_variable = {
+            var = BA_miyunshi_rin_affection
+            value > 4
+        }
+    }
+    else_if = {
+        limit = {
+            check_variable = {
+                var = BA_miyunshi_selected_character
+                value = 14
+            }
+        }
+        check_variable = {
+            var = BA_miyunshi_yuuka_affection
+            value > 4
+        }
+    }
+    else_if = {
+        limit = {
+            check_variable = {
+                var = BA_miyunshi_selected_character
+                value = 15
+            }
+        }
+        check_variable = {
+            var = BA_miyunshi_aris_affection
+            value > 4
+        }
+    }
+    else_if = {
+        limit = {
+            check_variable = {
+                var = BA_miyunshi_selected_character
+                value = 16
+            }
+        }
+        check_variable = {
+            var = BA_miyunshi_makoto_affection
+            value > 4
+        }
+    }
+    else_if = {
+        limit = {
+            check_variable = {
+                var = BA_miyunshi_selected_character
+                value = 17
+            }
+        }
+        check_variable = {
+            var = BA_miyunshi_noa_affection
+            value > 4
+        }
+    }
+    else_if = {
+        limit = {
+            check_variable = {
+                var = BA_miyunshi_selected_character
+                value = 18
+            }
+        }
+        check_variable = {
+            var = BA_miyunshi_ibuki_affection
+            value > 4
+        }
+    }
+    else_if = {
+        limit = {
+            check_variable = {
+                var = BA_miyunshi_selected_character
+                value = 19
+            }
+        }
+        check_variable = {
+            var = BA_miyunshi_kirino_affection
+            value > 4
+        }
+    }
+    else_if = {
+        limit = {
+            check_variable = {
+                var = BA_miyunshi_selected_character
+                value = 20
+            }
+        }
+        check_variable = {
+            var = BA_miyunshi_serika_affection
+            value > 4
+        }
+    }
+}
+
+# Helper Trigger for Generic Conversation
+BA_miyunshi_generic_affection_trigger = {
+    is_student_affection_than_friends_less_than_lovers_trigger = yes
 }

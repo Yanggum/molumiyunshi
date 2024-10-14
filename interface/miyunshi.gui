@@ -71,7 +71,7 @@ guiTypes = {
 			position = { x = 45 y = 30 }
 			scale = 0.45
 			Orientation = UPPER_LEFT
-			spriteType = "GFX_background_miyunshi_house"
+			spriteType = "GFX_background_house"
 		}
 	
 		iconType = {
